@@ -1,0 +1,1700 @@
+[2017-12-28 08:58:01 main INFO] port
+[2017-12-28 09:03:04 tornado.access INFO] 304 GET /index.html (127.0.0.1) 4.34ms
+[2017-12-28 09:03:04 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 5.35ms
+[2017-12-28 09:03:05 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.70ms
+[2017-12-28 09:03:05 tornado.access WARNING] 404 GET /favicon.ico (127.0.0.1) 1.87ms
+[2017-12-28 09:03:30 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:03:36 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:03:40 tornado.general INFO] main.py modified; restarting server
+[2017-12-28 09:04:09 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:04:18 tornado.access INFO] 304 GET /index.html (127.0.0.1) 3.96ms
+[2017-12-28 09:04:18 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 2.05ms
+[2017-12-28 09:05:36 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:05:54 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:06:05 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:08:16 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:08:22 tornado.access INFO] 304 GET /index.html (127.0.0.1) 4.24ms
+[2017-12-28 09:08:22 tornado.access INFO] 304 GET /static/css/compiled/index.css (127.0.0.1) 5.58ms
+[2017-12-28 09:08:22 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.82ms
+[2017-12-28 09:08:26 tornado.access INFO] 302 GET /logout.html (127.0.0.1) 0.57ms
+[2017-12-28 09:08:26 tornado.access INFO] 200 GET /signin.html (127.0.0.1) 3.01ms
+[2017-12-28 09:08:26 tornado.access INFO] 304 GET /static/js/signin.js (127.0.0.1) 1.14ms
+[2017-12-28 09:08:29 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.25ms
+[2017-12-28 09:08:29 tornado.access INFO] 200 GET /signin.html?error=Login+incorrect. (127.0.0.1) 1.21ms
+[2017-12-28 09:08:29 tornado.access INFO] 302 GET /index.html (127.0.0.1) 0.39ms
+[2017-12-28 09:08:29 tornado.access INFO] 200 GET /signin.html?next=%2Findex.html (127.0.0.1) 1.12ms
+[2017-12-28 09:09:02 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.06ms
+[2017-12-28 09:09:02 tornado.access INFO] 304 GET /signin.html?error=Login+incorrect. (127.0.0.1) 1.28ms
+[2017-12-28 09:09:02 tornado.access INFO] 302 GET /index.html (127.0.0.1) 0.37ms
+[2017-12-28 09:09:02 tornado.access INFO] 304 GET /signin.html?next=%2Findex.html (127.0.0.1) 1.09ms
+[2017-12-28 09:09:15 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.15ms
+[2017-12-28 09:09:15 tornado.access INFO] 200 GET /signin.html?error=Login+incorrect. (127.0.0.1) 1.07ms
+[2017-12-28 09:09:15 tornado.access INFO] 302 GET /index.html (127.0.0.1) 0.34ms
+[2017-12-28 09:09:15 tornado.access INFO] 200 GET /signin.html?next=%2Findex.html (127.0.0.1) 1.24ms
+[2017-12-28 09:09:15 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.88ms
+[2017-12-28 09:09:15 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.84ms
+[2017-12-28 09:09:15 tornado.access INFO] 200 GET /static/css/compiled/signin.css (127.0.0.1) 1.25ms
+[2017-12-28 09:09:15 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.96ms
+[2017-12-28 09:09:15 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 0.77ms
+[2017-12-28 09:09:15 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 1.14ms
+[2017-12-28 09:09:15 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 1.27ms
+[2017-12-28 09:09:15 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 2.19ms
+[2017-12-28 09:09:15 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.96ms
+[2017-12-28 09:09:15 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.58ms
+[2017-12-28 09:09:15 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.81ms
+[2017-12-28 09:09:15 tornado.access INFO] 200 GET /static/js/signin.js (127.0.0.1) 1.20ms
+[2017-12-28 09:09:15 tornado.access INFO] 200 GET /static/img/logo-white.png (127.0.0.1) 0.98ms
+[2017-12-28 09:09:15 tornado.access INFO] 200 GET /static/img/bgs/blueish.jpg (127.0.0.1) 5.61ms
+[2017-12-28 09:09:49 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 0.96ms
+[2017-12-28 09:09:49 tornado.access INFO] 200 GET /signin.html?error=Login+incorrect. (127.0.0.1) 1.22ms
+[2017-12-28 09:09:49 tornado.access INFO] 302 GET /index.html (127.0.0.1) 0.40ms
+[2017-12-28 09:09:49 tornado.access INFO] 200 GET /signin.html?next=%2Findex.html (127.0.0.1) 1.03ms
+[2017-12-28 09:09:49 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.45ms
+[2017-12-28 09:09:49 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 0.91ms
+[2017-12-28 09:09:49 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.98ms
+[2017-12-28 09:09:49 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 1.01ms
+[2017-12-28 09:09:49 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.95ms
+[2017-12-28 09:09:49 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.89ms
+[2017-12-28 09:09:49 tornado.access INFO] 200 GET /static/css/compiled/signin.css (127.0.0.1) 0.85ms
+[2017-12-28 09:09:49 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.99ms
+[2017-12-28 09:09:49 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 1.05ms
+[2017-12-28 09:09:49 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.90ms
+[2017-12-28 09:09:49 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.77ms
+[2017-12-28 09:09:49 tornado.access INFO] 200 GET /static/js/signin.js (127.0.0.1) 0.56ms
+[2017-12-28 09:09:49 tornado.access INFO] 200 GET /static/img/logo-white.png (127.0.0.1) 0.56ms
+[2017-12-28 09:09:49 tornado.access INFO] 200 GET /static/img/bgs/blueish.jpg (127.0.0.1) 4.42ms
+[2017-12-28 09:10:01 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.39ms
+[2017-12-28 09:10:01 tornado.access INFO] 200 GET /signin.html?error=Login+incorrect. (127.0.0.1) 1.16ms
+[2017-12-28 09:10:01 tornado.access INFO] 302 GET /index.html (127.0.0.1) 0.34ms
+[2017-12-28 09:10:01 tornado.access INFO] 200 GET /signin.html?next=%2Findex.html (127.0.0.1) 1.26ms
+[2017-12-28 09:10:01 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.64ms
+[2017-12-28 09:10:01 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.12ms
+[2017-12-28 09:10:01 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 1.09ms
+[2017-12-28 09:10:01 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.97ms
+[2017-12-28 09:10:01 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 1.08ms
+[2017-12-28 09:10:01 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 1.13ms
+[2017-12-28 09:10:01 tornado.access INFO] 200 GET /static/css/compiled/signin.css (127.0.0.1) 0.92ms
+[2017-12-28 09:10:01 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 2.05ms
+[2017-12-28 09:10:01 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 1.03ms
+[2017-12-28 09:10:01 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.91ms
+[2017-12-28 09:10:01 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.84ms
+[2017-12-28 09:10:01 tornado.access INFO] 200 GET /static/js/signin.js (127.0.0.1) 0.52ms
+[2017-12-28 09:10:01 tornado.access INFO] 200 GET /static/img/logo-white.png (127.0.0.1) 0.53ms
+[2017-12-28 09:10:01 tornado.access INFO] 200 GET /static/img/bgs/blueish.jpg (127.0.0.1) 11.64ms
+[2017-12-28 09:10:41 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 0.92ms
+[2017-12-28 09:10:41 tornado.access INFO] 200 GET /signin.html?error=Login+incorrect. (127.0.0.1) 1.34ms
+[2017-12-28 09:10:41 tornado.access INFO] 302 GET /index.html (127.0.0.1) 0.33ms
+[2017-12-28 09:10:41 tornado.access INFO] 200 GET /signin.html?next=%2Findex.html (127.0.0.1) 1.06ms
+[2017-12-28 09:10:41 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.28ms
+[2017-12-28 09:10:41 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.32ms
+[2017-12-28 09:10:41 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 1.03ms
+[2017-12-28 09:10:41 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 1.04ms
+[2017-12-28 09:10:41 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 1.25ms
+[2017-12-28 09:10:41 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.89ms
+[2017-12-28 09:10:41 tornado.access INFO] 200 GET /static/css/compiled/signin.css (127.0.0.1) 0.86ms
+[2017-12-28 09:10:41 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 2.31ms
+[2017-12-28 09:10:41 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.91ms
+[2017-12-28 09:10:41 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.75ms
+[2017-12-28 09:10:41 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.94ms
+[2017-12-28 09:10:41 tornado.access INFO] 200 GET /static/js/signin.js (127.0.0.1) 0.88ms
+[2017-12-28 09:10:41 tornado.access INFO] 200 GET /static/img/logo-white.png (127.0.0.1) 0.62ms
+[2017-12-28 09:10:41 tornado.access INFO] 200 GET /static/img/bgs/blueish.jpg (127.0.0.1) 5.02ms
+[2017-12-28 09:10:48 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.03ms
+[2017-12-28 09:10:48 tornado.access INFO] 200 GET /signin.html?error=Login+incorrect. (127.0.0.1) 1.08ms
+[2017-12-28 09:10:48 tornado.access INFO] 302 GET /index.html (127.0.0.1) 0.32ms
+[2017-12-28 09:10:48 tornado.access INFO] 200 GET /signin.html?next=%2Findex.html (127.0.0.1) 1.21ms
+[2017-12-28 09:10:48 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.29ms
+[2017-12-28 09:10:48 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 1.33ms
+[2017-12-28 09:10:48 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.88ms
+[2017-12-28 09:10:48 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 1.20ms
+[2017-12-28 09:10:48 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 1.00ms
+[2017-12-28 09:10:48 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.30ms
+[2017-12-28 09:10:48 tornado.access INFO] 200 GET /static/css/compiled/signin.css (127.0.0.1) 0.73ms
+[2017-12-28 09:10:48 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.80ms
+[2017-12-28 09:10:48 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.97ms
+[2017-12-28 09:10:48 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.88ms
+[2017-12-28 09:10:48 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.90ms
+[2017-12-28 09:10:48 tornado.access INFO] 200 GET /static/js/signin.js (127.0.0.1) 0.92ms
+[2017-12-28 09:10:48 tornado.access INFO] 200 GET /static/img/logo-white.png (127.0.0.1) 0.62ms
+[2017-12-28 09:10:48 tornado.access INFO] 200 GET /static/img/bgs/blueish.jpg (127.0.0.1) 5.10ms
+[2017-12-28 09:12:16 tornado.application ERROR] Uncaught exception POST /signin.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/signin.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '56', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://127.0.0.1/signin.html?next=%2Findex.html', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 228, in post
+    auth = self.db.authenticate(username, password)
+  File "main.py", line 31, in authenticate
+    user_info = self.db.get("SELECT * FROM lp_user WHERE name = %s", username)
+  File "/Library/Python/2.7/site-packages/torndb.py", line 152, in get
+    raise Exception("Multiple rows returned for Database.get() query")
+Exception: Multiple rows returned for Database.get() query
+[2017-12-28 09:12:16 tornado.access ERROR] 500 POST /signin.html (127.0.0.1) 3.05ms
+[2017-12-28 09:12:24 tornado.application ERROR] Uncaught exception POST /signin.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/signin.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '56', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://127.0.0.1/signin.html?next=%2Findex.html', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 228, in post
+    auth = self.db.authenticate(username, password)
+  File "main.py", line 31, in authenticate
+    user_info = self.db.get("SELECT * FROM lp_user WHERE name = %s", username)
+  File "/Library/Python/2.7/site-packages/torndb.py", line 152, in get
+    raise Exception("Multiple rows returned for Database.get() query")
+Exception: Multiple rows returned for Database.get() query
+[2017-12-28 09:12:24 tornado.access ERROR] 500 POST /signin.html (127.0.0.1) 1.83ms
+[2017-12-28 09:13:18 tornado.application ERROR] Uncaught exception POST /signin.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/signin.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '56', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://127.0.0.1/signin.html?next=%2Findex.html', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 228, in post
+    auth = self.db.authenticate(username, password)
+  File "main.py", line 31, in authenticate
+    user_info = self.db.get("SELECT * FROM lp_user WHERE name = %s", username)
+  File "/Library/Python/2.7/site-packages/torndb.py", line 152, in get
+    raise Exception("Multiple rows returned for Database.get() query")
+Exception: Multiple rows returned for Database.get() query
+[2017-12-28 09:13:18 tornado.access ERROR] 500 POST /signin.html (127.0.0.1) 2.30ms
+[2017-12-28 09:13:37 tornado.application ERROR] Uncaught exception POST /signin.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/signin.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '56', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://127.0.0.1/signin.html?next=%2Findex.html', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 228, in post
+    auth = self.db.authenticate(username, password)
+  File "main.py", line 31, in authenticate
+    user_info = self.db.get("SELECT * FROM lp_user WHERE name = %s", username)
+  File "/Library/Python/2.7/site-packages/torndb.py", line 152, in get
+    raise Exception("Multiple rows returned for Database.get() query")
+Exception: Multiple rows returned for Database.get() query
+[2017-12-28 09:13:37 tornado.access ERROR] 500 POST /signin.html (127.0.0.1) 2.59ms
+[2017-12-28 09:13:38 tornado.application ERROR] Uncaught exception POST /signin.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/signin.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '56', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://127.0.0.1/signin.html?next=%2Findex.html', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 228, in post
+    auth = self.db.authenticate(username, password)
+  File "main.py", line 31, in authenticate
+    user_info = self.db.get("SELECT * FROM lp_user WHERE name = %s", username)
+  File "/Library/Python/2.7/site-packages/torndb.py", line 152, in get
+    raise Exception("Multiple rows returned for Database.get() query")
+Exception: Multiple rows returned for Database.get() query
+[2017-12-28 09:13:38 tornado.access ERROR] 500 POST /signin.html (127.0.0.1) 2.43ms
+[2017-12-28 09:14:04 tornado.access INFO] 200 GET /signin.html?next=%2Findex.html (127.0.0.1) 1.85ms
+[2017-12-28 09:14:04 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.31ms
+[2017-12-28 09:14:04 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.37ms
+[2017-12-28 09:14:04 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 1.04ms
+[2017-12-28 09:14:04 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 1.10ms
+[2017-12-28 09:14:04 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.95ms
+[2017-12-28 09:14:04 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.83ms
+[2017-12-28 09:14:04 tornado.access INFO] 200 GET /static/css/compiled/signin.css (127.0.0.1) 0.90ms
+[2017-12-28 09:14:04 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 2.19ms
+[2017-12-28 09:14:04 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.94ms
+[2017-12-28 09:14:04 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.80ms
+[2017-12-28 09:14:04 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.89ms
+[2017-12-28 09:14:04 tornado.access INFO] 200 GET /static/js/signin.js (127.0.0.1) 0.91ms
+[2017-12-28 09:14:04 tornado.access INFO] 200 GET /static/img/logo-white.png (127.0.0.1) 1.03ms
+[2017-12-28 09:14:04 tornado.access INFO] 200 GET /static/img/bgs/blueish.jpg (127.0.0.1) 3.81ms
+[2017-12-28 09:14:12 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.71ms
+[2017-12-28 09:14:12 login INFO] None logined in
+[2017-12-28 09:14:12 login INFO] somebody logined in
+[2017-12-28 09:14:12 tornado.access INFO] 302 GET / (127.0.0.1) 0.42ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.66ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.36ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.48ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.23ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.81ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.93ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.99ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.82ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.95ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 1.04ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 3.43ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.77ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.67ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 1.18ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.79ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 0.98ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.61ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.66ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.62ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.87ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 3.89ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.12ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.80ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.16ms
+[2017-12-28 09:14:12 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.05ms
+[2017-12-28 09:14:12 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.66ms
+[2017-12-28 09:17:07 tornado.general INFO] main.py modified; restarting server
+[2017-12-28 09:17:36 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:17:42 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:17:43 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:17:53 tornado.access INFO] 302 GET /logout.html (127.0.0.1) 0.92ms
+[2017-12-28 09:17:53 tornado.access INFO] 200 GET /signin.html (127.0.0.1) 2.80ms
+[2017-12-28 09:17:53 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 6.90ms
+[2017-12-28 09:17:53 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 2.05ms
+[2017-12-28 09:17:53 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 1.16ms
+[2017-12-28 09:17:53 tornado.access INFO] 200 GET /static/css/compiled/signin.css (127.0.0.1) 0.91ms
+[2017-12-28 09:17:53 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.58ms
+[2017-12-28 09:17:53 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 0.99ms
+[2017-12-28 09:17:53 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.98ms
+[2017-12-28 09:17:53 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 2.41ms
+[2017-12-28 09:17:53 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.68ms
+[2017-12-28 09:17:53 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.62ms
+[2017-12-28 09:17:53 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.59ms
+[2017-12-28 09:17:53 tornado.access INFO] 200 GET /static/js/signin.js (127.0.0.1) 0.54ms
+[2017-12-28 09:17:53 tornado.access INFO] 200 GET /static/img/logo-white.png (127.0.0.1) 0.56ms
+[2017-12-28 09:17:53 tornado.access INFO] 200 GET /static/img/bgs/blueish.jpg (127.0.0.1) 3.63ms
+[2017-12-28 09:17:54 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.46ms
+[2017-12-28 09:17:54 login WARNING] None logined in
+[2017-12-28 09:17:54 login WARNING] somebody logined in
+[2017-12-28 09:17:54 tornado.access INFO] 302 GET / (127.0.0.1) 0.53ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.46ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.44ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.51ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 1.43ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 0.96ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 1.00ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.96ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.98ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.97ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.98ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 2.30ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.67ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.66ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.91ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.74ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.05ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.55ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.53ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.60ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.74ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 2.89ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.03ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.85ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.20ms
+[2017-12-28 09:17:54 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.05ms
+[2017-12-28 09:17:54 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.69ms
+[2017-12-28 09:19:04 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:23:24 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:23:31 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:23:37 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:23:38 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:23:45 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /index.html (127.0.0.1) 5.03ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 6.76ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.86ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.83ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.85ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.09ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.69ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 1.00ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 1.16ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.84ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.96ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.84ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 1.17ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 2.14ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.02ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.58ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.56ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.63ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.57ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 2.70ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 0.97ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.97ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.22ms
+[2017-12-28 09:23:59 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.34ms
+[2017-12-28 09:23:59 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 2.49ms
+[2017-12-28 09:24:05 tornado.access INFO] 302 GET /logout.html (127.0.0.1) 0.60ms
+[2017-12-28 09:24:05 tornado.access INFO] 200 GET /signin.html (127.0.0.1) 1.15ms
+[2017-12-28 09:24:05 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.40ms
+[2017-12-28 09:24:05 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 1.28ms
+[2017-12-28 09:24:05 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 0.87ms
+[2017-12-28 09:24:05 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 1.04ms
+[2017-12-28 09:24:05 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.94ms
+[2017-12-28 09:24:05 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.89ms
+[2017-12-28 09:24:05 tornado.access INFO] 200 GET /static/css/compiled/signin.css (127.0.0.1) 0.84ms
+[2017-12-28 09:24:05 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 2.18ms
+[2017-12-28 09:24:05 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.93ms
+[2017-12-28 09:24:05 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.94ms
+[2017-12-28 09:24:05 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.82ms
+[2017-12-28 09:24:05 tornado.access INFO] 200 GET /static/js/signin.js (127.0.0.1) 0.73ms
+[2017-12-28 09:24:05 tornado.access INFO] 200 GET /static/img/logo-white.png (127.0.0.1) 0.61ms
+[2017-12-28 09:24:05 tornado.access INFO] 200 GET /static/img/bgs/blueish.jpg (127.0.0.1) 3.70ms
+[2017-12-28 09:24:06 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.43ms
+[2017-12-28 09:24:06 login WARNING] [None] logined in
+[2017-12-28 09:24:06 login WARNING] somebody logined in
+[2017-12-28 09:24:06 tornado.access INFO] 302 GET / (127.0.0.1) 0.55ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.31ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.37ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.89ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 1.68ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.93ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 0.92ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 1.07ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.91ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 1.08ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 1.22ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 2.27ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.58ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.64ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.73ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.61ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.45ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.74ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.58ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.54ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.54ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 2.67ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 0.93ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.66ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 0.77ms
+[2017-12-28 09:24:06 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.13ms
+[2017-12-28 09:24:06 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.68ms
+[2017-12-28 09:24:35 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:24:47 tornado.access INFO] 302 GET /logout.html (127.0.0.1) 1.08ms
+[2017-12-28 09:24:47 tornado.access INFO] 200 GET /signin.html (127.0.0.1) 4.54ms
+[2017-12-28 09:24:47 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 8.30ms
+[2017-12-28 09:24:47 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.24ms
+[2017-12-28 09:24:47 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 1.05ms
+[2017-12-28 09:24:47 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 2.59ms
+[2017-12-28 09:24:47 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.98ms
+[2017-12-28 09:24:47 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.96ms
+[2017-12-28 09:24:47 tornado.access INFO] 200 GET /static/css/compiled/signin.css (127.0.0.1) 0.92ms
+[2017-12-28 09:24:47 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 2.08ms
+[2017-12-28 09:24:47 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 1.01ms
+[2017-12-28 09:24:47 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.83ms
+[2017-12-28 09:24:47 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.74ms
+[2017-12-28 09:24:47 tornado.access INFO] 200 GET /static/js/signin.js (127.0.0.1) 0.97ms
+[2017-12-28 09:24:47 tornado.access INFO] 200 GET /static/img/logo-white.png (127.0.0.1) 0.75ms
+[2017-12-28 09:24:47 tornado.access INFO] 200 GET /static/img/bgs/blueish.jpg (127.0.0.1) 5.63ms
+[2017-12-28 09:24:50 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.24ms
+[2017-12-28 09:24:50 login WARNING] [admin] logined in
+[2017-12-28 09:24:50 login WARNING] somebody logined in
+[2017-12-28 09:24:50 tornado.access INFO] 302 GET / (127.0.0.1) 0.64ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.53ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.74ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.24ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.13ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.75ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 1.06ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.98ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 1.00ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.81ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 3.30ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 2.23ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.79ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.56ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.78ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.62ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 0.89ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.71ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.55ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.64ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.55ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 2.76ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.09ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.90ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.15ms
+[2017-12-28 09:24:50 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.10ms
+[2017-12-28 09:24:50 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.83ms
+[2017-12-28 09:25:29 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:25:32 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:26:10 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:26:19 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:27:46 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:27:48 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:28:06 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:28:28 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:29:01 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:29:02 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:29:12 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:29:17 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:30:31 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:30:36 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:30:38 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:30:48 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /index.html (127.0.0.1) 4.92ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 6.07ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.39ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 0.89ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.92ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.95ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 1.04ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.97ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 1.45ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 2.10ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 1.07ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.79ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.99ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.59ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 0.86ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.81ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.55ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.62ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.55ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 2.70ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.06ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.89ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.14ms
+[2017-12-28 09:30:58 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 2.38ms
+[2017-12-28 09:30:58 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.18ms
+[2017-12-28 09:31:06 tornado.access INFO] 200 POST /add_or_rename.html (127.0.0.1) 3.32ms
+[2017-12-28 09:31:06 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.24ms
+[2017-12-28 09:31:07 tornado.access INFO] 200 POST /add_or_rename.html (127.0.0.1) 3.16ms
+[2017-12-28 09:31:07 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.09ms
+[2017-12-28 09:31:12 tornado.access INFO] 200 POST /add_or_rename.html (127.0.0.1) 3.11ms
+[2017-12-28 09:31:12 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.12ms
+[2017-12-28 09:31:14 tornado.access INFO] 304 GET /index.html (127.0.0.1) 3.53ms
+[2017-12-28 09:31:14 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.28ms
+[2017-12-28 09:31:19 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 2.31ms
+[2017-12-28 09:31:26 tornado.access INFO] 200 POST /upload_file.html (127.0.0.1) 5.61ms
+[2017-12-28 09:31:26 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.54ms
+[2017-12-28 09:31:27 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.63ms
+[2017-12-28 09:31:29 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.95ms
+[2017-12-28 09:31:36 tornado.access INFO] 200 POST /upload_file.html (127.0.0.1) 3.79ms
+[2017-12-28 09:31:36 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.95ms
+[2017-12-28 09:31:37 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.27ms
+[2017-12-28 09:31:37 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.65ms
+[2017-12-28 09:31:38 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.29ms
+[2017-12-28 09:31:51 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 2.17ms
+[2017-12-28 09:31:52 login WARNING] [admin] view the pdf NDA Chenshan for 云朵课堂.pdf
+[2017-12-28 09:31:52 tornado.access INFO] 200 POST /preview_pdf.html (127.0.0.1) 345.62ms
+[2017-12-28 09:31:52 tornado.access INFO] 200 GET /static/tmp/b4c53bc81c427a1051d91c94dfb0cc2c60136e5934a9b61924cb6578e54624d4/NDA%20Chenshan%20for%20%E4%BA%91%E6%9C%B5%E8%AF%BE%E5%A0%82.pdf (127.0.0.1) 1.18ms
+[2017-12-28 09:31:52 tornado.access INFO] 304 GET /static/tmp/b4c53bc81c427a1051d91c94dfb0cc2c60136e5934a9b61924cb6578e54624d4/NDA%20Chenshan%20for%20%E4%BA%91%E6%9C%B5%E8%AF%BE%E5%A0%82.pdf (127.0.0.1) 0.90ms
+[2017-12-28 09:31:52 tornado.access INFO] 304 GET /static/tmp/b4c53bc81c427a1051d91c94dfb0cc2c60136e5934a9b61924cb6578e54624d4/NDA%20Chenshan%20for%20%E4%BA%91%E6%9C%B5%E8%AF%BE%E5%A0%82.pdf (127.0.0.1) 1.04ms
+[2017-12-28 09:32:23 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:32:39 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:32:40 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-28 09:32:45 tornado.access INFO] 304 GET /index.html (127.0.0.1) 4.48ms
+[2017-12-28 09:32:45 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.84ms
+[2017-12-28 09:32:47 login WARNING] [admin] view the pdf [NDA Chenshan for 云朵课堂.pdf]
+[2017-12-28 09:32:47 tornado.access INFO] 200 POST /preview_pdf.html (127.0.0.1) 357.59ms
+[2017-12-28 09:32:47 tornado.access INFO] 304 GET /static/tmp/b4c53bc81c427a1051d91c94dfb0cc2c60136e5934a9b61924cb6578e54624d4/NDA%20Chenshan%20for%20%E4%BA%91%E6%9C%B5%E8%AF%BE%E5%A0%82.pdf (127.0.0.1) 4.28ms
+[2017-12-28 09:32:51 tornado.access INFO] 200 GET /download_file.html?file_path=static/tmp/b4c53bc81c427a1051d91c94dfb0cc2c60136e5934a9b61924cb6578e54624d4/NDA%20Chenshan%20for%20%E4%BA%91%E6%9C%B5%E8%AF%BE%E5%A0%82.pdf (127.0.0.1) 1.42ms
+[2017-12-28 09:32:51 login WARNING] [admin] download the pdf [static/tmp/b4c53bc81c427a1051d91c94dfb0cc2c60136e5934a9b61924cb6578e54624d4/NDA Chenshan for 云朵课堂.pdf]
+[2017-12-29 09:26:34 tornado.access INFO] 304 GET /index.html (127.0.0.1) 5.75ms
+[2017-12-29 09:26:34 tornado.access INFO] 304 GET /static/css/compiled/index.css (127.0.0.1) 5.42ms
+[2017-12-29 09:26:34 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 0.54ms
+[2017-12-29 09:26:34 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 3.18ms
+[2017-12-29 09:27:16 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.49ms
+[2017-12-29 09:27:16 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.63ms
+[2017-12-29 09:27:32 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.49ms
+[2017-12-29 09:27:32 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.77ms
+[2017-12-29 09:27:35 tornado.access INFO] 200 GET /password-reset.html (127.0.0.1) 1.86ms
+[2017-12-29 09:27:35 tornado.access INFO] 304 GET /static/js/password-reset.js (127.0.0.1) 0.77ms
+[2017-12-29 09:27:44 tornado.access INFO] 200 POST /password-reset.html (127.0.0.1) 3.21ms
+[2017-12-29 09:27:46 tornado.access INFO] 200 GET /password-reset.html (127.0.0.1) 1.75ms
+[2017-12-29 09:27:51 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.82ms
+[2017-12-29 09:27:51 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.23ms
+[2017-12-29 09:27:53 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.71ms
+[2017-12-29 09:27:53 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.25ms
+[2017-12-29 09:27:55 login WARNING] [admin] logined out
+[2017-12-29 09:27:55 tornado.access INFO] 302 GET /logout.html (127.0.0.1) 1.18ms
+[2017-12-29 09:27:55 tornado.access INFO] 200 GET /signin.html (127.0.0.1) 1.08ms
+[2017-12-29 09:27:55 tornado.access INFO] 304 GET /static/js/signin.js (127.0.0.1) 0.85ms
+[2017-12-29 09:28:01 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.10ms
+[2017-12-29 09:28:01 tornado.access INFO] 304 GET /signin.html?error=Login+incorrect. (127.0.0.1) 1.08ms
+[2017-12-29 09:28:01 tornado.access INFO] 302 GET /index.html (127.0.0.1) 0.35ms
+[2017-12-29 09:28:01 tornado.access INFO] 304 GET /signin.html?next=%2Findex.html (127.0.0.1) 1.14ms
+[2017-12-29 09:28:05 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.22ms
+[2017-12-29 09:28:05 login WARNING] [admin] logined in
+[2017-12-29 09:28:05 tornado.access INFO] 302 GET / (127.0.0.1) 0.40ms
+[2017-12-29 09:28:05 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.69ms
+[2017-12-29 09:28:05 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.48ms
+[2017-12-29 09:28:05 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.17ms
+[2017-12-29 09:28:20 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.54ms
+[2017-12-29 09:28:21 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.89ms
+[2017-12-29 09:28:21 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.07ms
+[2017-12-29 09:37:25 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.56ms
+[2017-12-29 09:37:25 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.14ms
+[2017-12-29 09:37:42 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.51ms
+[2017-12-29 09:37:42 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.13ms
+[2017-12-29 09:37:48 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.83ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /index.html (127.0.0.1) 3.00ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.69ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.94ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.89ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.86ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 0.97ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.97ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.86ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.71ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.65ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.72ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.67ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.88ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.85ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.13ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.73ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.54ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.68ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.58ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 2.71ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 0.95ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.81ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.61ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.18ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.72ms
+[2017-12-29 09:38:33 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.48ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 0.64ms
+[2017-12-29 09:38:33 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 0.86ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /index.html (127.0.0.1) 3.11ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.24ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.44ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.86ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.84ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.78ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.90ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.86ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.83ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.72ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.69ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.67ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 1.01ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.83ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.29ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.77ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.50ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.55ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.68ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 2.90ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.16ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.90ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.25ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.44ms
+[2017-12-29 09:39:34 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 2.09ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.83ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 0.88ms
+[2017-12-29 09:39:34 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 0.79ms
+[2017-12-29 09:40:01 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.87ms
+[2017-12-29 09:40:01 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 1.03ms
+[2017-12-29 09:40:01 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.40ms
+[2017-12-29 09:40:03 tornado.access INFO] 304 GET /index.html (127.0.0.1) 4.39ms
+[2017-12-29 09:40:03 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.61ms
+[2017-12-29 09:40:39 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.94ms
+[2017-12-29 09:40:39 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 0.77ms
+[2017-12-29 09:40:39 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.14ms
+[2017-12-29 09:40:43 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.95ms
+[2017-12-29 09:40:43 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.18ms
+[2017-12-29 09:40:57 tornado.access INFO] 304 GET /index.html (127.0.0.1) 3.08ms
+[2017-12-29 09:40:57 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 0.62ms
+[2017-12-29 09:40:57 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.26ms
+[2017-12-29 09:41:00 login WARNING] [admin] logined out
+[2017-12-29 09:41:00 tornado.access INFO] 302 GET /logout.html (127.0.0.1) 0.82ms
+[2017-12-29 09:41:00 tornado.access INFO] 200 GET /signin.html (127.0.0.1) 1.01ms
+[2017-12-29 09:41:02 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.22ms
+[2017-12-29 09:41:02 login WARNING] [admin] logined in
+[2017-12-29 09:41:02 tornado.access INFO] 302 GET / (127.0.0.1) 0.47ms
+[2017-12-29 09:41:02 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.23ms
+[2017-12-29 09:41:02 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.42ms
+[2017-12-29 09:41:02 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.28ms
+[2017-12-29 09:45:56 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.46ms
+[2017-12-29 09:45:56 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 1.08ms
+[2017-12-29 09:45:56 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.24ms
+[2017-12-29 09:48:42 tornado.general INFO] main.py modified; restarting server
+[2017-12-29 09:56:08 tornado.access INFO] 304 GET /index.html (127.0.0.1) 4.50ms
+[2017-12-29 09:56:08 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 4.82ms
+[2017-12-29 09:56:08 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.89ms
+[2017-12-29 09:56:10 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 0.86ms
+[2017-12-29 09:56:21 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.20ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /index.html (127.0.0.1) 3.11ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 1.02ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.72ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 1.05ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 1.09ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.35ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 0.81ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.59ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.78ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.64ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.80ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.70ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.87ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.81ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.20ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.80ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.66ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.66ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.72ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 2.59ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.16ms
+[2017-12-29 09:56:55 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 1.16ms
+[2017-12-29 09:56:56 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.09ms
+[2017-12-29 09:56:56 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.31ms
+[2017-12-29 09:56:56 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.38ms
+[2017-12-29 09:56:56 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.85ms
+[2017-12-29 09:56:56 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 0.93ms
+[2017-12-29 09:56:56 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 0.67ms
+[2017-12-29 09:56:58 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 1.11ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.99ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.37ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 1.23ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 0.85ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.86ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.92ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.74ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.60ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.86ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.79ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.68ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.93ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 1.01ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.93ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.32ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.84ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.58ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.55ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.90ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 3.01ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.09ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.97ms
+[2017-12-29 09:57:27 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.12ms
+[2017-12-29 09:57:28 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.09ms
+[2017-12-29 09:57:28 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.91ms
+[2017-12-29 09:57:28 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.77ms
+[2017-12-29 09:57:28 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 0.73ms
+[2017-12-29 09:57:28 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 0.61ms
+[2017-12-29 09:57:37 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 0.76ms
+[2017-12-29 09:58:11 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 1.11ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.98ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.16ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.64ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.76ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.00ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.79ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.77ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.87ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.75ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 2.26ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.95ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.78ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 1.08ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.99ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.25ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.76ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.91ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.64ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.69ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 3.27ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 0.95ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.91ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.17ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.54ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.66ms
+[2017-12-29 10:00:20 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 2.50ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 0.83ms
+[2017-12-29 10:00:20 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 1.03ms
+[2017-12-29 10:00:23 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 0.98ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /index.html (127.0.0.1) 3.27ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.15ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 0.94ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.92ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 1.14ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.85ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 1.06ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.89ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.73ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.69ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.71ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.90ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 1.06ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.81ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 2.19ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.68ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.70ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.61ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.66ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 4.03ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 0.97ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.93ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.17ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.15ms
+[2017-12-29 10:02:05 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.67ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.60ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 0.70ms
+[2017-12-29 10:02:05 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 0.83ms
+[2017-12-29 10:02:08 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 0.97ms
+[2017-12-29 10:04:14 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /index.html (127.0.0.1) 7.89ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 5.68ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 1.25ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.86ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.78ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.80ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.01ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 0.76ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.61ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 2.10ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.82ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.80ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 1.11ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.93ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.45ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.93ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.94ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.81ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.72ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 3.66ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.15ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.99ms
+[2017-12-29 10:04:30 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.04ms
+[2017-12-29 10:04:31 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.22ms
+[2017-12-29 10:04:31 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.90ms
+[2017-12-29 10:04:31 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.85ms
+[2017-12-29 10:04:31 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 0.72ms
+[2017-12-29 10:04:31 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 0.69ms
+[2017-12-29 10:04:33 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 0.84ms
+[2017-12-29 10:06:21 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.75ms
+[2017-12-29 10:06:21 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 0.70ms
+[2017-12-29 10:06:21 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.44ms
+[2017-12-29 10:06:23 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.69ms
+[2017-12-29 10:07:18 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.75ms
+[2017-12-29 10:07:20 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.82ms
+[2017-12-29 10:07:21 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.95ms
+[2017-12-29 10:07:21 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 0.94ms
+[2017-12-29 10:07:21 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.15ms
+[2017-12-29 10:07:22 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.85ms
+[2017-12-29 10:07:37 login WARNING] [admin] logined out
+[2017-12-29 10:07:37 tornado.access INFO] 302 GET /logout.html (127.0.0.1) 1.29ms
+[2017-12-29 10:07:37 tornado.access INFO] 200 GET /signin.html (127.0.0.1) 1.25ms
+[2017-12-29 10:07:42 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.14ms
+[2017-12-29 10:07:42 tornado.access INFO] 304 GET /signin.html?error=Login+incorrect. (127.0.0.1) 1.26ms
+[2017-12-29 10:07:42 tornado.access INFO] 302 GET /index.html (127.0.0.1) 0.37ms
+[2017-12-29 10:07:42 tornado.access INFO] 304 GET /signin.html?next=%2Findex.html (127.0.0.1) 1.11ms
+[2017-12-29 10:08:16 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.01ms
+[2017-12-29 10:08:16 tornado.access INFO] 304 GET /signin.html?error=Login+incorrect. (127.0.0.1) 1.09ms
+[2017-12-29 10:08:16 tornado.access INFO] 302 GET /index.html (127.0.0.1) 0.30ms
+[2017-12-29 10:08:16 tornado.access INFO] 304 GET /signin.html?next=%2Findex.html (127.0.0.1) 0.91ms
+[2017-12-29 10:08:23 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 0.89ms
+[2017-12-29 10:08:23 tornado.access INFO] 304 GET /signin.html?error=Login+incorrect. (127.0.0.1) 1.17ms
+[2017-12-29 10:08:23 tornado.access INFO] 302 GET /index.html (127.0.0.1) 0.31ms
+[2017-12-29 10:08:23 tornado.access INFO] 304 GET /signin.html?next=%2Findex.html (127.0.0.1) 1.32ms
+[2017-12-29 10:08:45 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.18ms
+[2017-12-29 10:08:45 tornado.access INFO] 304 GET /signin.html?error=Login+incorrect. (127.0.0.1) 1.25ms
+[2017-12-29 10:08:45 tornado.access INFO] 302 GET /index.html (127.0.0.1) 0.43ms
+[2017-12-29 10:08:45 tornado.access INFO] 304 GET /signin.html?next=%2Findex.html (127.0.0.1) 1.16ms
+[2017-12-29 10:08:48 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.49ms
+[2017-12-29 10:08:48 login WARNING] [admin] logined in
+[2017-12-29 10:08:48 tornado.access INFO] 302 GET / (127.0.0.1) 0.59ms
+[2017-12-29 10:08:48 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.64ms
+[2017-12-29 10:08:48 tornado.access INFO] 304 GET /index.html (127.0.0.1) 3.75ms
+[2017-12-29 10:08:48 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 0.84ms
+[2017-12-29 10:08:48 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.48ms
+[2017-12-29 10:08:51 login WARNING] [admin] logined out
+[2017-12-29 10:08:51 tornado.access INFO] 302 GET /logout.html (127.0.0.1) 1.01ms
+[2017-12-29 10:08:51 tornado.access INFO] 200 GET /signin.html (127.0.0.1) 1.42ms
+[2017-12-29 10:08:56 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.14ms
+[2017-12-29 10:08:56 login WARNING] [银科集团] logined in
+[2017-12-29 10:08:56 tornado.access INFO] 302 GET / (127.0.0.1) 0.67ms
+[2017-12-29 10:08:56 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.84ms
+[2017-12-29 10:08:56 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.33ms
+[2017-12-29 10:08:56 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.28ms
+[2017-12-29 10:09:00 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 2.11ms
+[2017-12-29 10:09:01 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.51ms
+[2017-12-29 10:09:02 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.92ms
+[2017-12-29 10:09:03 tornado.application ERROR] Uncaught exception POST /preview_pdf.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/preview_pdf.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '99', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/index.html', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp; user="2|1:0|10:1514513336|4:user|36:Ilx1OTRmNlx1NzlkMVx1OTZjNlx1NTZlMiI=|e1d028f19c89f10c95bf91d9e36d8037f28b17edd95d78a9d19df0332a2521a7"', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 2897, in wrapper
+    return method(self, *args, **kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 217, in post
+    add_watermark(BASE_PATH + file_path + file_info.file_name, watermark_path, output_path)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/pdf_watermark.py", line 42, in add_watermark
+    input_stream = file(pdf_file_in, 'rb')
+IOError: [Errno 2] No such file or directory: u'static/file/0/2/NDA Chenshan for \u4e91\u6735\u8bfe\u5802.pdf'
+[2017-12-29 10:09:03 tornado.access ERROR] 500 POST /preview_pdf.html (127.0.0.1) 95.48ms
+[2017-12-29 10:09:09 tornado.application ERROR] Uncaught exception POST /preview_pdf.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/preview_pdf.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '99', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/index.html', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp; user="2|1:0|10:1514513336|4:user|36:Ilx1OTRmNlx1NzlkMVx1OTZjNlx1NTZlMiI=|e1d028f19c89f10c95bf91d9e36d8037f28b17edd95d78a9d19df0332a2521a7"', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 2897, in wrapper
+    return method(self, *args, **kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 217, in post
+    add_watermark(BASE_PATH + file_path + file_info.file_name, watermark_path, output_path)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/pdf_watermark.py", line 42, in add_watermark
+    input_stream = file(pdf_file_in, 'rb')
+IOError: [Errno 2] No such file or directory: u'static/file/0/2/NDA Chenshan for \u4e91\u6735\u8bfe\u5802.pdf'
+[2017-12-29 10:09:09 tornado.access ERROR] 500 POST /preview_pdf.html (127.0.0.1) 96.31ms
+[2017-12-29 10:09:14 tornado.access WARNING] 405 GET /preview_pdf.html (127.0.0.1) 0.44ms
+[2017-12-29 10:09:25 tornado.application ERROR] Uncaught exception POST /preview_pdf.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/preview_pdf.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '99', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://127.0.0.1/index.html', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp; user="2|1:0|10:1514513336|4:user|36:Ilx1OTRmNlx1NzlkMVx1OTZjNlx1NTZlMiI=|e1d028f19c89f10c95bf91d9e36d8037f28b17edd95d78a9d19df0332a2521a7"'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 2897, in wrapper
+    return method(self, *args, **kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 217, in post
+    add_watermark(BASE_PATH + file_path + file_info.file_name, watermark_path, output_path)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/pdf_watermark.py", line 42, in add_watermark
+    input_stream = file(pdf_file_in, 'rb')
+IOError: [Errno 2] No such file or directory: u'static/file/0/2/NDA Chenshan for \u4e91\u6735\u8bfe\u5802.pdf'
+[2017-12-29 10:09:25 tornado.access ERROR] 500 POST /preview_pdf.html (127.0.0.1) 85.78ms
+[2017-12-29 10:10:12 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.36ms
+[2017-12-29 10:10:12 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.65ms
+[2017-12-29 10:10:18 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 2.07ms
+[2017-12-29 10:10:20 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.44ms
+[2017-12-29 10:10:21 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.85ms
+[2017-12-29 10:10:22 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.42ms
+[2017-12-29 10:10:31 login WARNING] [银科集团] logined out
+[2017-12-29 10:10:31 tornado.access INFO] 302 GET /logout.html (127.0.0.1) 0.98ms
+[2017-12-29 10:10:31 tornado.access INFO] 200 GET /signin.html (127.0.0.1) 1.24ms
+[2017-12-29 10:10:35 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 0.98ms
+[2017-12-29 10:10:35 login WARNING] [admin] logined in
+[2017-12-29 10:10:35 tornado.access INFO] 302 GET / (127.0.0.1) 0.37ms
+[2017-12-29 10:10:35 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.71ms
+[2017-12-29 10:10:35 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.41ms
+[2017-12-29 10:10:35 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 0.60ms
+[2017-12-29 10:10:35 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.06ms
+[2017-12-29 10:10:37 tornado.access INFO] 200 POST /delete_file.html (127.0.0.1) 3.71ms
+[2017-12-29 10:10:38 tornado.access INFO] 200 POST /delete_file.html (127.0.0.1) 3.55ms
+[2017-12-29 10:10:39 tornado.access INFO] 200 POST /delete_file.html (127.0.0.1) 1.73ms
+[2017-12-29 10:10:39 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.94ms
+[2017-12-29 10:10:39 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.18ms
+[2017-12-29 10:10:43 tornado.access INFO] 200 POST /add_or_rename.html (127.0.0.1) 1.40ms
+[2017-12-29 10:10:43 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 0.98ms
+[2017-12-29 10:10:55 tornado.access INFO] 200 POST /add_or_rename.html (127.0.0.1) 3.58ms
+[2017-12-29 10:10:55 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.02ms
+[2017-12-29 10:10:56 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.66ms
+[2017-12-29 10:10:57 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.16ms
+[2017-12-29 10:10:57 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 2.22ms
+[2017-12-29 10:11:03 tornado.access INFO] 200 POST /upload_file.html (127.0.0.1) 3.46ms
+[2017-12-29 10:11:03 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.56ms
+[2017-12-29 10:11:04 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.55ms
+[2017-12-29 10:11:04 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.85ms
+[2017-12-29 10:11:06 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.72ms
+[2017-12-29 10:14:29 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.45ms
+[2017-12-29 10:14:29 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.74ms
+[2017-12-29 10:14:29 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.13ms
+[2017-12-29 10:14:30 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.67ms
+[2017-12-29 10:14:30 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 0.92ms
+[2017-12-29 10:14:30 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.11ms
+[2017-12-29 10:14:59 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.87ms
+[2017-12-29 10:14:59 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.67ms
+[2017-12-29 10:14:59 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.84ms
+[2017-12-29 10:14:59 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.81ms
+[2017-12-29 10:14:59 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.89ms
+[2017-12-29 10:14:59 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.13ms
+[2017-12-29 10:14:59 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 0.81ms
+[2017-12-29 10:14:59 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.70ms
+[2017-12-29 10:14:59 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.71ms
+[2017-12-29 10:14:59 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.71ms
+[2017-12-29 10:14:59 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.73ms
+[2017-12-29 10:14:59 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.60ms
+[2017-12-29 10:14:59 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.75ms
+[2017-12-29 10:14:59 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.58ms
+[2017-12-29 10:14:59 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 0.96ms
+[2017-12-29 10:14:59 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.53ms
+[2017-12-29 10:14:59 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.53ms
+[2017-12-29 10:14:59 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.58ms
+[2017-12-29 10:14:59 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.55ms
+[2017-12-29 10:14:59 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 2.72ms
+[2017-12-29 10:15:00 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.05ms
+[2017-12-29 10:15:00 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.91ms
+[2017-12-29 10:15:00 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.01ms
+[2017-12-29 10:15:00 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.20ms
+[2017-12-29 10:15:00 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.75ms
+[2017-12-29 10:15:00 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.94ms
+[2017-12-29 10:15:00 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 0.85ms
+[2017-12-29 10:15:00 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 0.93ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /index.html (127.0.0.1) 3.37ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.33ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.24ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 1.01ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.98ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.90ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.94ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.76ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.71ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.62ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.74ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.57ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.75ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.71ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 0.93ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.60ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.58ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.51ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.56ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 2.66ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 0.99ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.94ms
+[2017-12-29 10:15:11 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.14ms
+[2017-12-29 10:15:11 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 2.24ms
+[2017-12-29 10:15:13 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.59ms
+[2017-12-29 10:15:13 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.82ms
+[2017-12-29 10:15:13 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 0.92ms
+[2017-12-29 10:15:13 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 0.71ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /index.html (127.0.0.1) 3.54ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.19ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 0.96ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.74ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.80ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.74ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.89ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.74ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.63ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.57ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.86ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.68ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.75ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.57ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 0.90ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.55ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.56ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.74ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.72ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 3.36ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.06ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.84ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 0.96ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.11ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.64ms
+[2017-12-29 10:15:39 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.70ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 1.08ms
+[2017-12-29 10:15:39 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 0.73ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.90ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.32ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.45ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.84ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.95ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.79ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.88ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.82ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.80ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.65ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.79ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.63ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.80ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.67ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.45ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.70ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.76ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.62ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.83ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 4.85ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.00ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.94ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.08ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.09ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.71ms
+[2017-12-29 10:15:42 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.94ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 0.83ms
+[2017-12-29 10:15:42 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 0.78ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.89ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.07ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.18ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.95ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 1.14ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 1.08ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 1.03ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.74ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.74ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.39ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.68ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.56ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.73ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.58ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 0.94ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.54ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.55ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.54ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.58ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 4.11ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.20ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.65ms
+[2017-12-29 10:15:58 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.30ms
+[2017-12-29 10:15:58 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 2.26ms
+[2017-12-29 10:16:01 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.57ms
+[2017-12-29 10:16:24 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.97ms
+[2017-12-29 10:16:24 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 1.01ms
+[2017-12-29 10:16:24 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 1.08ms
+[2017-12-29 10:16:26 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 2.41ms
+[2017-12-29 10:16:33 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.83ms
+[2017-12-29 10:16:33 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.29ms
+[2017-12-29 10:16:33 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.96ms
+[2017-12-29 10:16:33 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 0.71ms
+[2017-12-29 10:16:33 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 1.04ms
+[2017-12-29 10:16:33 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 1.01ms
+[2017-12-29 10:16:33 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.91ms
+[2017-12-29 10:16:33 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.78ms
+[2017-12-29 10:16:33 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.60ms
+[2017-12-29 10:16:33 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.39ms
+[2017-12-29 10:16:33 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.70ms
+[2017-12-29 10:16:33 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.55ms
+[2017-12-29 10:16:33 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.73ms
+[2017-12-29 10:16:33 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.64ms
+[2017-12-29 10:16:33 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.00ms
+[2017-12-29 10:16:33 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.53ms
+[2017-12-29 10:16:33 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.57ms
+[2017-12-29 10:16:33 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.51ms
+[2017-12-29 10:16:33 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.57ms
+[2017-12-29 10:16:33 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 3.12ms
+[2017-12-29 10:16:34 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 0.96ms
+[2017-12-29 10:16:34 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.79ms
+[2017-12-29 10:16:34 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.18ms
+[2017-12-29 10:16:34 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.85ms
+[2017-12-29 10:16:35 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 2.16ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.74ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.38ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 1.20ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.68ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.80ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.78ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 0.76ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.82ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.84ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.82ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.65ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.53ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.76ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.97ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.05ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.69ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.56ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.65ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.89ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 3.27ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.03ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.84ms
+[2017-12-29 10:18:02 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.28ms
+[2017-12-29 10:18:03 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.71ms
+[2017-12-29 10:18:05 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 2.13ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /index.html (127.0.0.1) 3.77ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.47ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 1.20ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 1.18ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.74ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.05ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 1.10ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 1.81ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 1.60ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.96ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.95ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 2.41ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.91ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.81ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 1.18ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.90ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.42ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 1.02ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.94ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 1.04ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.99ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 3.94ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.17ms
+[2017-12-29 11:03:20 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.99ms
+[2017-12-29 11:03:21 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.16ms
+[2017-12-29 11:03:21 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 2.73ms
+[2017-12-29 11:03:22 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.25ms
+[2017-12-29 11:03:22 tornado.access WARNING] 404 GET /favicon.ico (127.0.0.1) 0.93ms
+[2017-12-29 11:03:23 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.92ms
+[2017-12-29 11:03:23 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 3.36ms
+[2017-12-29 11:03:23 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 1.01ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /index.html (127.0.0.1) 3.01ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.01ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 1.42ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 1.27ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 1.06ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 0.94ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.88ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.56ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.70ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.63ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.97ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.69ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.67ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.56ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 0.86ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.53ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.62ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.70ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.59ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 3.01ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.08ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.77ms
+[2017-12-29 11:03:41 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.19ms
+[2017-12-29 11:03:42 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.98ms
+[2017-12-29 11:03:46 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.38ms
+[2017-12-29 11:03:46 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 1.05ms
+[2017-12-29 11:03:46 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 0.98ms
+[2017-12-29 11:03:46 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 0.90ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.84ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.15ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.20ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 1.01ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 1.13ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 1.08ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.98ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.62ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.74ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.81ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.64ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.53ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.91ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.62ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 0.90ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.59ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.52ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.67ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.61ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 4.38ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 0.89ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.83ms
+[2017-12-29 11:04:49 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.47ms
+[2017-12-29 11:04:49 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 2.40ms
+[2017-12-29 11:04:51 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.58ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.86ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.36ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 1.38ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.90ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.85ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.93ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 0.86ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.66ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.92ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 2.04ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.65ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.66ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.79ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.86ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.12ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.59ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.81ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.51ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.64ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 3.15ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 0.94ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.68ms
+[2017-12-29 11:05:35 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 0.77ms
+[2017-12-29 11:05:36 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.69ms
+[2017-12-29 11:05:37 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.47ms
+[2017-12-29 11:05:37 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 2.75ms
+[2017-12-29 11:05:37 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 0.93ms
+[2017-12-29 11:05:37 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 0.74ms
+[2017-12-29 11:05:41 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.61ms
+[2017-12-29 11:05:41 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 0.65ms
+[2017-12-29 11:05:41 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.23ms
+[2017-12-29 11:05:42 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.93ms
+[2017-12-29 11:05:43 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.13ms
+[2017-12-29 11:05:44 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 2.19ms
+[2017-12-29 11:05:45 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.09ms
+[2017-12-29 11:05:46 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.62ms
+[2017-12-29 11:05:47 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.40ms
+[2017-12-29 11:05:48 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.84ms
+[2017-12-29 11:05:49 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.20ms
+[2017-12-29 11:05:50 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.78ms
+[2017-12-29 11:05:51 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.41ms
+[2017-12-29 11:05:51 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 0.71ms
+[2017-12-29 11:05:51 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.42ms
+[2017-12-29 11:05:52 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.38ms
+[2017-12-29 11:05:53 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 0.87ms
+[2017-12-29 11:05:53 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.78ms
+[2017-12-29 11:05:56 tornado.access INFO] 304 GET /index.html (127.0.0.1) 3.06ms
+[2017-12-29 11:05:56 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 0.72ms
+[2017-12-29 11:05:56 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.14ms
+[2017-12-29 11:05:57 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.86ms
+[2017-12-29 11:06:07 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.50ms
+[2017-12-29 11:06:07 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 0.78ms
+[2017-12-29 11:06:07 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.26ms
+[2017-12-29 11:06:12 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.97ms
+[2017-12-29 11:06:13 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.14ms
+[2017-12-29 11:06:52 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-29 11:55:08 tornado.general INFO] /Users/beyondwu/workspace/NetDisk/detaildemo/login.py modified; restarting server
+[2017-12-29 12:06:48 tornado.access INFO] 304 GET /index.html (127.0.0.1) 4.48ms
+[2017-12-29 12:06:48 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 4.94ms
+[2017-12-29 12:06:49 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 4.40ms
+[2017-12-29 12:06:50 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.83ms
+[2017-12-29 12:07:08 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.76ms
+[2017-12-29 12:07:08 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 1.13ms
+[2017-12-29 12:07:08 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.20ms
+[2017-12-29 12:07:09 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.84ms
+[2017-12-29 01:01:30 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.66ms
+[2017-12-29 01:01:30 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 0.86ms
+[2017-12-29 01:01:30 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.23ms
+[2017-12-29 01:01:31 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.71ms
+[2017-12-29 01:16:30 tornado.access INFO] 304 GET /index.html (127.0.0.1) 3.19ms
+[2017-12-29 01:16:30 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 0.67ms
+[2017-12-29 01:16:30 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.14ms
+[2017-12-29 01:16:31 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.71ms
+[2017-12-29 01:16:33 login WARNING] [admin] logined out
+[2017-12-29 01:16:33 tornado.access INFO] 302 GET /logout.html (127.0.0.1) 1.17ms
+[2017-12-29 01:16:33 tornado.access INFO] 200 GET /signin.html (127.0.0.1) 3.07ms
+[2017-12-29 01:16:34 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.55ms
+[2017-12-29 01:16:34 login WARNING] [admin] logined in
+[2017-12-29 01:16:34 tornado.access INFO] 302 GET / (127.0.0.1) 0.43ms
+[2017-12-29 01:16:34 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.38ms
+[2017-12-29 01:16:34 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.57ms
+[2017-12-29 01:16:35 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.28ms
+[2017-12-29 01:16:36 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.92ms
+[2017-12-29 01:16:37 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.57ms
+[2017-12-29 01:16:38 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 2.23ms
+[2017-12-29 01:16:39 login WARNING] [admin] view the pdf [NDA Chenshan for 云朵课堂.pdf]
+[2017-12-29 01:16:39 tornado.access INFO] 200 POST /preview_pdf.html (127.0.0.1) 378.33ms
+[2017-12-29 01:16:39 tornado.access INFO] 304 GET /static/js/pdf.worker.js (127.0.0.1) 5.80ms
+[2017-12-29 01:16:39 tornado.access INFO] 200 GET /static/tmp/cc5cec837d6f426135d0b4d3bb7146e5e077f655423237692368f223212eaa1a/NDA%20Chenshan%20for%20%E4%BA%91%E6%9C%B5%E8%AF%BE%E5%A0%82.pdf (127.0.0.1) 1.28ms
+[2017-12-29 01:16:39 tornado.access INFO] 304 GET /static/tmp/cc5cec837d6f426135d0b4d3bb7146e5e077f655423237692368f223212eaa1a/NDA%20Chenshan%20for%20%E4%BA%91%E6%9C%B5%E8%AF%BE%E5%A0%82.pdf (127.0.0.1) 1.12ms
+[2017-12-29 01:16:41 tornado.access INFO] 200 POST /close_pdf.html (127.0.0.1) 0.81ms
+[2017-12-29 01:16:43 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 0.79ms
+[2017-12-29 01:16:48 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.72ms
+[2017-12-29 01:16:49 login WARNING] [admin] logined out
+[2017-12-29 01:16:49 tornado.access INFO] 302 GET /logout.html (127.0.0.1) 1.04ms
+[2017-12-29 01:16:49 tornado.access INFO] 200 GET /signin.html (127.0.0.1) 0.93ms
+[2017-12-29 01:16:50 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.28ms
+[2017-12-29 01:16:50 login WARNING] [admin] logined in
+[2017-12-29 01:16:50 tornado.access INFO] 302 GET / (127.0.0.1) 0.38ms
+[2017-12-29 01:16:50 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.98ms
+[2017-12-29 01:16:50 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.46ms
+[2017-12-29 01:16:50 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.10ms
+[2017-12-29 01:16:51 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 0.67ms
+[2017-12-29 01:17:58 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.46ms
+[2017-12-29 01:17:58 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.19ms
+[2017-12-29 01:17:59 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.78ms
+[2017-12-29 01:18:04 tornado.access INFO] 304 GET /index.html (127.0.0.1) 3.25ms
+[2017-12-29 01:18:04 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.17ms
+[2017-12-29 01:18:05 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 2.30ms
+[2017-12-29 01:18:06 login WARNING] [admin] view the pdf [NDA Chenshan for 云朵课堂.pdf]
+[2017-12-29 01:18:06 tornado.access INFO] 200 POST /preview_pdf.html (127.0.0.1) 344.61ms
+[2017-12-29 01:18:06 tornado.access INFO] 200 GET /static/tmp/c6f13154adc10337c8953b90c5e1dccf8523bafcadde39870e5ab215c0bbcd07/NDA%20Chenshan%20for%20%E4%BA%91%E6%9C%B5%E8%AF%BE%E5%A0%82.pdf (127.0.0.1) 1.55ms
+[2017-12-29 01:18:06 tornado.access INFO] 304 GET /static/tmp/c6f13154adc10337c8953b90c5e1dccf8523bafcadde39870e5ab215c0bbcd07/NDA%20Chenshan%20for%20%E4%BA%91%E6%9C%B5%E8%AF%BE%E5%A0%82.pdf (127.0.0.1) 0.85ms
+[2017-12-29 01:18:06 tornado.access INFO] 304 GET /static/tmp/c6f13154adc10337c8953b90c5e1dccf8523bafcadde39870e5ab215c0bbcd07/NDA%20Chenshan%20for%20%E4%BA%91%E6%9C%B5%E8%AF%BE%E5%A0%82.pdf (127.0.0.1) 0.91ms
+[2017-12-29 01:18:07 tornado.access INFO] 200 POST /close_pdf.html (127.0.0.1) 0.87ms
+[2017-12-29 01:25:00 login WARNING] [admin] view the pdf [NDA Chenshan for 云朵课堂.pdf]
+[2017-12-29 01:25:00 tornado.access INFO] 200 POST /preview_pdf.html (127.0.0.1) 354.16ms
+[2017-12-29 01:25:00 tornado.access INFO] 304 GET /static/tmp/c6f13154adc10337c8953b90c5e1dccf8523bafcadde39870e5ab215c0bbcd07/NDA%20Chenshan%20for%20%E4%BA%91%E6%9C%B5%E8%AF%BE%E5%A0%82.pdf (127.0.0.1) 0.95ms
+[2017-12-29 01:25:02 tornado.application ERROR] Uncaught exception POST /get_dir_list.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/get_dir_list.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '7', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/index.html', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp; user="2|1:0|10:1514524610|4:user|12:ImFkbWluIg==|c6f13154adc10337c8953b90c5e1dccf8523bafcadde39870e5ab215c0bbcd07"', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 2897, in wrapper
+    return method(self, *args, **kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 85, in post
+    ids.extend(paths.file_path[:-1].split('/'))#remove last /
+AttributeError: 'NoneType' object has no attribute 'file_path'
+[2017-12-29 01:25:02 tornado.access ERROR] 500 POST /get_dir_list.html (127.0.0.1) 5.76ms
+[2017-12-29 01:25:09 tornado.access INFO] 200 POST /close_pdf.html (127.0.0.1) 0.68ms
+[2017-12-29 01:25:18 login WARNING] [admin] logined out
+[2017-12-29 01:25:18 tornado.access INFO] 302 GET /logout.html (127.0.0.1) 0.85ms
+[2017-12-29 01:25:18 tornado.access INFO] 200 GET /signin.html (127.0.0.1) 1.10ms
+[2017-12-29 01:25:19 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.36ms
+[2017-12-29 01:25:19 login WARNING] [admin] logined in
+[2017-12-29 01:25:19 tornado.access INFO] 302 GET / (127.0.0.1) 0.52ms
+[2017-12-29 01:25:19 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.29ms
+[2017-12-29 01:25:19 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.49ms
+[2017-12-29 01:25:19 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 0.58ms
+[2017-12-29 01:25:19 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.30ms
+[2017-12-29 01:25:20 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 0.74ms
+[2017-12-29 01:25:23 login WARNING] [admin] logined out
+[2017-12-29 01:25:23 tornado.access INFO] 302 GET /logout.html (127.0.0.1) 0.84ms
+[2017-12-29 01:25:23 tornado.access INFO] 200 GET /signin.html (127.0.0.1) 1.12ms
+[2017-12-29 01:25:24 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.29ms
+[2017-12-29 01:25:24 login WARNING] [admin] logined in
+[2017-12-29 01:25:24 tornado.access INFO] 302 GET / (127.0.0.1) 0.50ms
+[2017-12-29 01:25:24 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.71ms
+[2017-12-29 01:25:24 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.74ms
+[2017-12-29 01:25:24 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.12ms
+[2017-12-29 01:25:35 login WARNING] [admin] logined out
+[2017-12-29 01:25:35 tornado.access INFO] 302 GET /logout.html (127.0.0.1) 0.91ms
+[2017-12-29 01:25:35 tornado.access INFO] 200 GET /signin.html (127.0.0.1) 1.05ms
+[2017-12-29 01:25:36 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.53ms
+[2017-12-29 01:25:36 login WARNING] [admin] logined in
+[2017-12-29 01:25:36 tornado.access INFO] 302 GET / (127.0.0.1) 0.66ms
+[2017-12-29 01:25:36 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.54ms
+[2017-12-29 01:25:36 tornado.access INFO] 304 GET /index.html (127.0.0.1) 4.90ms
+[2017-12-29 01:25:37 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.43ms
+[2017-12-29 01:25:38 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 0.74ms
+[2017-12-29 01:25:41 login WARNING] [admin] logined out
+[2017-12-29 01:25:41 tornado.access INFO] 302 GET /logout.html (127.0.0.1) 0.90ms
+[2017-12-29 01:25:41 tornado.access INFO] 200 GET /signin.html (127.0.0.1) 1.00ms
+[2017-12-29 01:25:42 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.17ms
+[2017-12-29 01:25:42 login WARNING] [admin] logined in
+[2017-12-29 01:25:42 tornado.access INFO] 302 GET / (127.0.0.1) 0.49ms
+[2017-12-29 01:25:42 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.49ms
+[2017-12-29 01:25:42 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.83ms
+[2017-12-29 01:25:42 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.60ms
+[2017-12-29 01:25:43 login WARNING] [admin] logined out
+[2017-12-29 01:25:43 tornado.access INFO] 302 GET /logout.html (127.0.0.1) 1.07ms
+[2017-12-29 01:25:43 tornado.access INFO] 200 GET /signin.html (127.0.0.1) 0.97ms
+[2017-12-29 01:25:44 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.31ms
+[2017-12-29 01:25:44 login WARNING] [admin] logined in
+[2017-12-29 01:25:44 tornado.access INFO] 302 GET / (127.0.0.1) 0.55ms
+[2017-12-29 01:25:44 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.48ms
+[2017-12-29 01:25:44 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.79ms
+[2017-12-29 01:25:45 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.20ms
+[2017-12-29 01:25:47 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 0.75ms
+[2017-12-29 01:25:55 login WARNING] [admin] logined out
+[2017-12-29 01:25:55 tornado.access INFO] 302 GET /logout.html (127.0.0.1) 0.98ms
+[2017-12-29 01:25:55 tornado.access INFO] 200 GET /signin.html (127.0.0.1) 1.06ms
+[2017-12-29 01:25:56 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.17ms
+[2017-12-29 01:25:56 login WARNING] [admin] logined in
+[2017-12-29 01:25:56 tornado.access INFO] 302 GET / (127.0.0.1) 0.63ms
+[2017-12-29 01:25:56 tornado.access INFO] 304 GET /index.html (127.0.0.1) 3.04ms
+[2017-12-29 01:25:56 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.49ms
+[2017-12-29 01:25:56 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.13ms
+[2017-12-29 01:25:57 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 0.86ms
+[2017-12-29 01:27:50 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.68ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.78ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.74ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.04ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 1.00ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 1.17ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.93ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.90ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.69ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.97ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 2.29ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.84ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.83ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 1.06ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.97ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.72ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.71ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.79ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.91ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.56ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 3.45ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.22ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 1.03ms
+[2017-12-29 01:29:22 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.10ms
+[2017-12-29 01:29:22 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.81ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /index.html (127.0.0.1) 3.05ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.18ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 1.16ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.84ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 1.03ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.99ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 0.94ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.90ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.90ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.54ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.66ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.55ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.72ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.61ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 0.92ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.55ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.51ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.64ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.63ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 2.77ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.01ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.86ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.01ms
+[2017-12-29 01:29:48 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.13ms
+[2017-12-29 01:29:48 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.73ms
+[2017-12-29 01:29:49 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 2.94ms
+[2017-12-29 01:29:49 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 0.96ms
+[2017-12-29 01:29:49 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 1.02ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.86ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.04ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 1.31ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 0.87ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 1.00ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 1.11ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 1.09ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.87ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.66ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.68ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.63ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.73ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.67ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.56ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.05ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.55ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.58ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.55ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.67ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 2.86ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.10ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.81ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.18ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.18ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.82ms
+[2017-12-29 01:29:52 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.43ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 0.75ms
+[2017-12-29 01:29:52 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 1.00ms
+[2017-12-29 01:29:53 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 0.81ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.86ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.28ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.46ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.99ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.83ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.78ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.73ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.77ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.61ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.67ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.62ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.75ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.76ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.81ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.23ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.74ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.69ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 1.03ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.74ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 3.86ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.15ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.83ms
+[2017-12-29 01:30:51 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.02ms
+[2017-12-29 01:30:52 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.08ms
+[2017-12-29 01:30:52 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.65ms
+[2017-12-29 01:30:52 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.38ms
+[2017-12-29 01:30:52 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 0.79ms
+[2017-12-29 01:30:52 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 0.92ms
+[2017-12-29 01:30:52 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 1.25ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /index.html (127.0.0.1) 3.41ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.42ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.15ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.89ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.99ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.98ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.85ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.80ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.86ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.89ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.90ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.64ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.66ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.58ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.17ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.58ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.59ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.55ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.91ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 4.23ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.18ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 1.16ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.63ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.05ms
+[2017-12-29 01:32:53 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.62ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.76ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 0.98ms
+[2017-12-29 01:32:53 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 1.06ms
+[2017-12-29 01:32:54 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 1.05ms
+[2017-12-29 01:34:05 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.96ms
+[2017-12-29 01:34:05 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.23ms
+[2017-12-29 01:34:05 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.11ms
+[2017-12-29 01:34:05 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.65ms
+[2017-12-29 01:34:05 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.95ms
+[2017-12-29 01:34:05 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.69ms
+[2017-12-29 01:34:05 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.69ms
+[2017-12-29 01:34:05 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.70ms
+[2017-12-29 01:34:05 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 1.00ms
+[2017-12-29 01:34:05 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.60ms
+[2017-12-29 01:34:05 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.59ms
+[2017-12-29 01:34:05 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.53ms
+[2017-12-29 01:34:05 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.70ms
+[2017-12-29 01:34:05 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.74ms
+[2017-12-29 01:34:05 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 0.85ms
+[2017-12-29 01:34:05 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.65ms
+[2017-12-29 01:34:05 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.56ms
+[2017-12-29 01:34:05 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.57ms
+[2017-12-29 01:34:05 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.65ms
+[2017-12-29 01:34:05 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 4.12ms
+[2017-12-29 01:34:06 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.07ms
+[2017-12-29 01:34:06 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 1.00ms
+[2017-12-29 01:34:06 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 0.90ms
+[2017-12-29 01:34:06 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.00ms
+[2017-12-29 01:34:06 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.64ms
+[2017-12-29 01:34:06 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.42ms
+[2017-12-29 01:34:06 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 0.72ms
+[2017-12-29 01:34:06 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 0.89ms
+[2017-12-29 01:34:07 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 0.75ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.79ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.00ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.21ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.85ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.81ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.90ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.93ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.78ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.68ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.72ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.58ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.53ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.83ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.56ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.11ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.60ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.79ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.59ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.55ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 3.10ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 0.96ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.90ms
+[2017-12-29 01:35:15 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.14ms
+[2017-12-29 01:35:16 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.15ms
+[2017-12-29 01:35:16 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.55ms
+[2017-12-29 01:35:16 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.47ms
+[2017-12-29 01:35:16 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 0.65ms
+[2017-12-29 01:35:16 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 0.94ms
+[2017-12-29 01:35:17 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 0.64ms
+[2017-12-29 01:36:15 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.85ms
+[2017-12-29 01:36:15 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 0.65ms
+[2017-12-29 01:36:15 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.25ms
+[2017-12-29 01:36:17 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.77ms
+[2017-12-29 01:36:24 login WARNING] [admin] logined out
+[2017-12-29 01:36:24 tornado.access INFO] 302 GET /logout.html (127.0.0.1) 1.04ms
+[2017-12-29 01:36:24 tornado.access INFO] 200 GET /signin.html (127.0.0.1) 1.09ms
+[2017-12-29 01:36:25 tornado.access INFO] 302 POST /signin.html (127.0.0.1) 1.34ms
+[2017-12-29 01:36:25 login WARNING] [admin] logined in
+[2017-12-29 01:36:25 tornado.access INFO] 302 GET / (127.0.0.1) 0.49ms
+[2017-12-29 01:36:25 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.27ms
+[2017-12-29 01:36:25 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.91ms
+[2017-12-29 01:36:25 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 0.87ms
+[2017-12-29 01:36:25 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.26ms
+[2017-12-29 01:36:26 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 1.01ms
+[2017-12-29 01:36:33 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.66ms
+[2017-12-29 01:36:33 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 0.77ms
+[2017-12-29 01:36:33 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.23ms
+[2017-12-29 01:36:35 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.93ms
+[2017-12-29 01:37:06 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.72ms
+[2017-12-29 01:37:58 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.55ms
+[2017-12-29 01:37:58 tornado.access INFO] 304 GET /static/js/index.js (127.0.0.1) 0.94ms
+[2017-12-29 01:37:58 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.09ms
+[2017-12-29 01:37:59 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.83ms
+[2017-12-29 01:38:00 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.77ms
+[2017-12-29 01:38:00 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.31ms
+[2017-12-29 01:38:03 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.75ms
+[2017-12-29 01:40:19 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.53ms
+[2017-12-29 01:40:19 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.99ms
+[2017-12-29 01:40:19 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.18ms
+[2017-12-29 01:40:20 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.80ms
+[2017-12-29 01:40:43 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.63ms
+[2017-12-29 01:40:43 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.77ms
+[2017-12-29 01:40:43 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.22ms
+[2017-12-29 01:40:45 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.66ms
+[2017-12-29 01:40:51 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.53ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.95ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.16ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.02ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.98ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 1.09ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 1.01ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.95ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.71ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.79ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.81ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.59ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.59ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.66ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.60ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 0.89ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.58ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.56ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.64ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.69ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 3.26ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 0.91ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.84ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.18ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.40ms
+[2017-12-29 01:43:18 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.80ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.53ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 0.95ms
+[2017-12-29 01:43:18 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 1.07ms
+[2017-12-29 01:43:19 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 0.86ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.67ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.17ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.09ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.79ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 1.09ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 1.25ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 1.12ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.72ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.85ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.51ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.59ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.77ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.69ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.66ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.01ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.61ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.86ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.69ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.75ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 2.66ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.06ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.94ms
+[2017-12-29 01:43:54 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 1.24ms
+[2017-12-29 01:43:55 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.10ms
+[2017-12-29 01:43:55 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.67ms
+[2017-12-29 01:43:55 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.55ms
+[2017-12-29 01:43:55 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 0.98ms
+[2017-12-29 01:43:55 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 0.97ms
+[2017-12-29 01:43:56 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 0.83ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /index.html (127.0.0.1) 2.89ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap.css (127.0.0.1) 1.12ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/css/bootstrap/bootstrap-overrides.css (127.0.0.1) 1.12ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/css/lib/jquery-ui-1.10.2.custom.css (127.0.0.1) 0.67ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/css/compiled/elements.css (127.0.0.1) 0.90ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/css/compiled/layout.css (127.0.0.1) 0.97ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/css/lib/font-awesome.css (127.0.0.1) 0.85ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/css/compiled/icons.css (127.0.0.1) 0.77ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/css/compiled/index.css (127.0.0.1) 0.82ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/js/jquery-latest.js (127.0.0.1) 1.55ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/js/bootstrap.min.js (127.0.0.1) 0.62ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/js/md5.js (127.0.0.1) 0.54ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/js/jquery-ui-1.10.2.custom.min.js (127.0.0.1) 0.90ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/js/jquery.knob.js (127.0.0.1) 0.88ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/js/jquery.flot.js (127.0.0.1) 1.08ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/js/jquery.flot.stack.js (127.0.0.1) 0.53ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/js/jquery.flot.resize.js (127.0.0.1) 0.55ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/js/theme.js (127.0.0.1) 0.87ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.65ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/js/pdf.js (127.0.0.1) 3.05ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/js/compatability.js (127.0.0.1) 1.02ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/img/cslogo.png (127.0.0.1) 0.76ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/font/fontawesome-webfont.woff?v=3.2.1 (127.0.0.1) 0.86ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.03ms
+[2017-12-29 01:44:17 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.80ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/img/folder.png (127.0.0.1) 0.87ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/img/ico-table-new.png (127.0.0.1) 0.97ms
+[2017-12-29 01:44:17 tornado.access INFO] 200 GET /static/img/ico-table-delete.png (127.0.0.1) 0.90ms
+[2017-12-29 01:44:18 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 0.73ms
+[2017-12-29 01:44:37 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 0.60ms
+[2017-12-29 01:44:48 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 0.70ms
+[2017-12-29 01:50:04 tornado.access INFO] 304 GET /index.html (127.0.0.1) 4.72ms
+[2017-12-29 01:50:04 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 6.82ms
+[2017-12-29 01:50:04 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.56ms
+[2017-12-29 01:50:05 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 2.13ms
+[2017-12-29 01:50:07 login WARNING] [admin] view the pdf [NDA Chenshan for 云朵课堂.pdf]
+[2017-12-29 01:50:07 tornado.access INFO] 200 POST /preview_pdf.html (127.0.0.1) 366.13ms
+[2017-12-29 01:50:07 tornado.access INFO] 200 GET /static/tmp/5b85c42fbacf31001fee47fb79a365223079fd12bcb3ae8a9acdf2f2c1eca34c/NDA%20Chenshan%20for%20%E4%BA%91%E6%9C%B5%E8%AF%BE%E5%A0%82.pdf (127.0.0.1) 1.42ms
+[2017-12-29 01:50:07 tornado.access INFO] 304 GET /static/tmp/5b85c42fbacf31001fee47fb79a365223079fd12bcb3ae8a9acdf2f2c1eca34c/NDA%20Chenshan%20for%20%E4%BA%91%E6%9C%B5%E8%AF%BE%E5%A0%82.pdf (127.0.0.1) 0.96ms
+[2017-12-29 01:50:07 tornado.access INFO] 304 GET /static/tmp/5b85c42fbacf31001fee47fb79a365223079fd12bcb3ae8a9acdf2f2c1eca34c/NDA%20Chenshan%20for%20%E4%BA%91%E6%9C%B5%E8%AF%BE%E5%A0%82.pdf (127.0.0.1) 0.77ms
+[2017-12-29 01:50:23 tornado.access INFO] 200 POST /close_pdf.html (127.0.0.1) 0.64ms
+[2017-12-29 01:50:26 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.23ms
+[2017-12-29 01:50:27 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 2.21ms
+[2017-12-29 01:50:28 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.42ms
+[2017-12-29 01:50:29 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 2.15ms
+[2017-12-29 01:50:31 login WARNING] [admin] view the pdf [NDA Chenshan for 云朵课堂.pdf]
+[2017-12-29 01:50:31 tornado.access INFO] 200 POST /preview_pdf.html (127.0.0.1) 359.60ms
+[2017-12-29 01:50:31 tornado.access INFO] 304 GET /static/tmp/5b85c42fbacf31001fee47fb79a365223079fd12bcb3ae8a9acdf2f2c1eca34c/NDA%20Chenshan%20for%20%E4%BA%91%E6%9C%B5%E8%AF%BE%E5%A0%82.pdf (127.0.0.1) 1.06ms
+[2017-12-29 01:50:34 tornado.access INFO] 200 POST /close_pdf.html (127.0.0.1) 0.71ms
+[2017-12-29 01:50:36 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.19ms
+[2017-12-29 01:53:34 tornado.access INFO] 304 GET /index.html (127.0.0.1) 4.09ms
+[2017-12-29 01:53:34 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.81ms
+[2017-12-29 01:53:35 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.23ms
+[2017-12-29 01:53:36 tornado.access INFO] 200 GET /get_user_log.html (127.0.0.1) 0.79ms
+[2017-12-29 01:53:40 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.71ms
+[2017-12-29 01:54:01 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.63ms
+[2017-12-29 01:54:01 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.68ms
+[2017-12-29 01:54:01 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.28ms
+[2017-12-29 01:54:02 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.92ms
+[2017-12-29 01:54:31 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.61ms
+[2017-12-29 01:54:31 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 0.80ms
+[2017-12-29 01:54:31 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.48ms
+[2017-12-29 01:54:32 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.74ms
+[2017-12-29 01:54:39 tornado.access INFO] 304 GET /index.html (127.0.0.1) 2.49ms
+[2017-12-29 01:54:40 tornado.access INFO] 200 GET /static/js/index.js (127.0.0.1) 1.22ms
+[2017-12-29 01:54:40 tornado.access INFO] 200 POST /get_dir_list.html (127.0.0.1) 1.11ms
+[2017-12-29 01:54:40 tornado.access INFO] 304 GET /get_user_log.html (127.0.0.1) 0.71ms

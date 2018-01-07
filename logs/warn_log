@@ -1,0 +1,200 @@
+[2017-12-28 09:03:05 tornado.access WARNING] 404 GET /favicon.ico (127.0.0.1) 1.87ms
+[2017-12-28 09:12:16 tornado.application ERROR] Uncaught exception POST /signin.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/signin.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '56', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://127.0.0.1/signin.html?next=%2Findex.html', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 228, in post
+    auth = self.db.authenticate(username, password)
+  File "main.py", line 31, in authenticate
+    user_info = self.db.get("SELECT * FROM lp_user WHERE name = %s", username)
+  File "/Library/Python/2.7/site-packages/torndb.py", line 152, in get
+    raise Exception("Multiple rows returned for Database.get() query")
+Exception: Multiple rows returned for Database.get() query
+[2017-12-28 09:12:16 tornado.access ERROR] 500 POST /signin.html (127.0.0.1) 3.05ms
+[2017-12-28 09:12:24 tornado.application ERROR] Uncaught exception POST /signin.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/signin.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '56', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://127.0.0.1/signin.html?next=%2Findex.html', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 228, in post
+    auth = self.db.authenticate(username, password)
+  File "main.py", line 31, in authenticate
+    user_info = self.db.get("SELECT * FROM lp_user WHERE name = %s", username)
+  File "/Library/Python/2.7/site-packages/torndb.py", line 152, in get
+    raise Exception("Multiple rows returned for Database.get() query")
+Exception: Multiple rows returned for Database.get() query
+[2017-12-28 09:12:24 tornado.access ERROR] 500 POST /signin.html (127.0.0.1) 1.83ms
+[2017-12-28 09:13:18 tornado.application ERROR] Uncaught exception POST /signin.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/signin.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '56', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://127.0.0.1/signin.html?next=%2Findex.html', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 228, in post
+    auth = self.db.authenticate(username, password)
+  File "main.py", line 31, in authenticate
+    user_info = self.db.get("SELECT * FROM lp_user WHERE name = %s", username)
+  File "/Library/Python/2.7/site-packages/torndb.py", line 152, in get
+    raise Exception("Multiple rows returned for Database.get() query")
+Exception: Multiple rows returned for Database.get() query
+[2017-12-28 09:13:18 tornado.access ERROR] 500 POST /signin.html (127.0.0.1) 2.30ms
+[2017-12-28 09:13:37 tornado.application ERROR] Uncaught exception POST /signin.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/signin.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '56', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://127.0.0.1/signin.html?next=%2Findex.html', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 228, in post
+    auth = self.db.authenticate(username, password)
+  File "main.py", line 31, in authenticate
+    user_info = self.db.get("SELECT * FROM lp_user WHERE name = %s", username)
+  File "/Library/Python/2.7/site-packages/torndb.py", line 152, in get
+    raise Exception("Multiple rows returned for Database.get() query")
+Exception: Multiple rows returned for Database.get() query
+[2017-12-28 09:13:37 tornado.access ERROR] 500 POST /signin.html (127.0.0.1) 2.59ms
+[2017-12-28 09:13:38 tornado.application ERROR] Uncaught exception POST /signin.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/signin.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '56', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://127.0.0.1/signin.html?next=%2Findex.html', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 228, in post
+    auth = self.db.authenticate(username, password)
+  File "main.py", line 31, in authenticate
+    user_info = self.db.get("SELECT * FROM lp_user WHERE name = %s", username)
+  File "/Library/Python/2.7/site-packages/torndb.py", line 152, in get
+    raise Exception("Multiple rows returned for Database.get() query")
+Exception: Multiple rows returned for Database.get() query
+[2017-12-28 09:13:38 tornado.access ERROR] 500 POST /signin.html (127.0.0.1) 2.43ms
+[2017-12-28 09:14:12 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.66ms
+[2017-12-28 09:17:54 login WARNING] None logined in
+[2017-12-28 09:17:54 login WARNING] somebody logined in
+[2017-12-28 09:17:54 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.69ms
+[2017-12-28 09:23:59 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 2.49ms
+[2017-12-28 09:24:06 login WARNING] [None] logined in
+[2017-12-28 09:24:06 login WARNING] somebody logined in
+[2017-12-28 09:24:06 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.68ms
+[2017-12-28 09:24:50 login WARNING] [admin] logined in
+[2017-12-28 09:24:50 login WARNING] somebody logined in
+[2017-12-28 09:24:50 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.83ms
+[2017-12-28 09:30:58 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 2.38ms
+[2017-12-28 09:31:52 login WARNING] [admin] view the pdf NDA Chenshan for 云朵课堂.pdf
+[2017-12-28 09:32:47 login WARNING] [admin] view the pdf [NDA Chenshan for 云朵课堂.pdf]
+[2017-12-28 09:32:51 login WARNING] [admin] download the pdf [static/tmp/b4c53bc81c427a1051d91c94dfb0cc2c60136e5934a9b61924cb6578e54624d4/NDA Chenshan for 云朵课堂.pdf]
+[2017-12-29 09:27:55 login WARNING] [admin] logined out
+[2017-12-29 09:28:05 login WARNING] [admin] logined in
+[2017-12-29 09:37:48 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.83ms
+[2017-12-29 09:38:33 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.48ms
+[2017-12-29 09:39:34 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 2.09ms
+[2017-12-29 09:41:00 login WARNING] [admin] logined out
+[2017-12-29 09:41:02 login WARNING] [admin] logined in
+[2017-12-29 09:56:21 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.20ms
+[2017-12-29 09:56:56 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.38ms
+[2017-12-29 09:57:28 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.91ms
+[2017-12-29 10:00:20 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 2.50ms
+[2017-12-29 10:02:05 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.67ms
+[2017-12-29 10:04:31 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.90ms
+[2017-12-29 10:07:37 login WARNING] [admin] logined out
+[2017-12-29 10:08:48 login WARNING] [admin] logined in
+[2017-12-29 10:08:51 login WARNING] [admin] logined out
+[2017-12-29 10:08:56 login WARNING] [银科集团] logined in
+[2017-12-29 10:09:03 tornado.application ERROR] Uncaught exception POST /preview_pdf.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/preview_pdf.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '99', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/index.html', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp; user="2|1:0|10:1514513336|4:user|36:Ilx1OTRmNlx1NzlkMVx1OTZjNlx1NTZlMiI=|e1d028f19c89f10c95bf91d9e36d8037f28b17edd95d78a9d19df0332a2521a7"', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 2897, in wrapper
+    return method(self, *args, **kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 217, in post
+    add_watermark(BASE_PATH + file_path + file_info.file_name, watermark_path, output_path)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/pdf_watermark.py", line 42, in add_watermark
+    input_stream = file(pdf_file_in, 'rb')
+IOError: [Errno 2] No such file or directory: u'static/file/0/2/NDA Chenshan for \u4e91\u6735\u8bfe\u5802.pdf'
+[2017-12-29 10:09:03 tornado.access ERROR] 500 POST /preview_pdf.html (127.0.0.1) 95.48ms
+[2017-12-29 10:09:09 tornado.application ERROR] Uncaught exception POST /preview_pdf.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/preview_pdf.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '99', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/index.html', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp; user="2|1:0|10:1514513336|4:user|36:Ilx1OTRmNlx1NzlkMVx1OTZjNlx1NTZlMiI=|e1d028f19c89f10c95bf91d9e36d8037f28b17edd95d78a9d19df0332a2521a7"', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 2897, in wrapper
+    return method(self, *args, **kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 217, in post
+    add_watermark(BASE_PATH + file_path + file_info.file_name, watermark_path, output_path)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/pdf_watermark.py", line 42, in add_watermark
+    input_stream = file(pdf_file_in, 'rb')
+IOError: [Errno 2] No such file or directory: u'static/file/0/2/NDA Chenshan for \u4e91\u6735\u8bfe\u5802.pdf'
+[2017-12-29 10:09:09 tornado.access ERROR] 500 POST /preview_pdf.html (127.0.0.1) 96.31ms
+[2017-12-29 10:09:14 tornado.access WARNING] 405 GET /preview_pdf.html (127.0.0.1) 0.44ms
+[2017-12-29 10:09:25 tornado.application ERROR] Uncaught exception POST /preview_pdf.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/preview_pdf.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '99', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://127.0.0.1/index.html', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp; user="2|1:0|10:1514513336|4:user|36:Ilx1OTRmNlx1NzlkMVx1OTZjNlx1NTZlMiI=|e1d028f19c89f10c95bf91d9e36d8037f28b17edd95d78a9d19df0332a2521a7"'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 2897, in wrapper
+    return method(self, *args, **kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 217, in post
+    add_watermark(BASE_PATH + file_path + file_info.file_name, watermark_path, output_path)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/pdf_watermark.py", line 42, in add_watermark
+    input_stream = file(pdf_file_in, 'rb')
+IOError: [Errno 2] No such file or directory: u'static/file/0/2/NDA Chenshan for \u4e91\u6735\u8bfe\u5802.pdf'
+[2017-12-29 10:09:25 tornado.access ERROR] 500 POST /preview_pdf.html (127.0.0.1) 85.78ms
+[2017-12-29 10:10:31 login WARNING] [银科集团] logined out
+[2017-12-29 10:10:35 login WARNING] [admin] logined in
+[2017-12-29 10:15:00 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.75ms
+[2017-12-29 10:15:11 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 2.24ms
+[2017-12-29 10:15:39 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.70ms
+[2017-12-29 10:15:42 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.94ms
+[2017-12-29 10:15:58 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 2.26ms
+[2017-12-29 10:16:34 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.85ms
+[2017-12-29 10:18:03 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.71ms
+[2017-12-29 11:03:21 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 2.73ms
+[2017-12-29 11:03:22 tornado.access WARNING] 404 GET /favicon.ico (127.0.0.1) 0.93ms
+[2017-12-29 11:03:42 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.98ms
+[2017-12-29 11:04:49 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 2.40ms
+[2017-12-29 11:05:36 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.69ms
+[2017-12-29 01:16:33 login WARNING] [admin] logined out
+[2017-12-29 01:16:34 login WARNING] [admin] logined in
+[2017-12-29 01:16:39 login WARNING] [admin] view the pdf [NDA Chenshan for 云朵课堂.pdf]
+[2017-12-29 01:16:49 login WARNING] [admin] logined out
+[2017-12-29 01:16:50 login WARNING] [admin] logined in
+[2017-12-29 01:18:06 login WARNING] [admin] view the pdf [NDA Chenshan for 云朵课堂.pdf]
+[2017-12-29 01:25:00 login WARNING] [admin] view the pdf [NDA Chenshan for 云朵课堂.pdf]
+[2017-12-29 01:25:02 tornado.application ERROR] Uncaught exception POST /get_dir_list.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/get_dir_list.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '7', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/index.html', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp; user="2|1:0|10:1514524610|4:user|12:ImFkbWluIg==|c6f13154adc10337c8953b90c5e1dccf8523bafcadde39870e5ab215c0bbcd07"', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 2897, in wrapper
+    return method(self, *args, **kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 85, in post
+    ids.extend(paths.file_path[:-1].split('/'))#remove last /
+AttributeError: 'NoneType' object has no attribute 'file_path'
+[2017-12-29 01:25:02 tornado.access ERROR] 500 POST /get_dir_list.html (127.0.0.1) 5.76ms
+[2017-12-29 01:25:18 login WARNING] [admin] logined out
+[2017-12-29 01:25:19 login WARNING] [admin] logined in
+[2017-12-29 01:25:23 login WARNING] [admin] logined out
+[2017-12-29 01:25:24 login WARNING] [admin] logined in
+[2017-12-29 01:25:35 login WARNING] [admin] logined out
+[2017-12-29 01:25:36 login WARNING] [admin] logined in
+[2017-12-29 01:25:41 login WARNING] [admin] logined out
+[2017-12-29 01:25:42 login WARNING] [admin] logined in
+[2017-12-29 01:25:43 login WARNING] [admin] logined out
+[2017-12-29 01:25:44 login WARNING] [admin] logined in
+[2017-12-29 01:25:55 login WARNING] [admin] logined out
+[2017-12-29 01:25:56 login WARNING] [admin] logined in
+[2017-12-29 01:27:50 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.68ms
+[2017-12-29 01:29:22 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.81ms
+[2017-12-29 01:29:48 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.73ms
+[2017-12-29 01:29:52 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.43ms
+[2017-12-29 01:30:52 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.38ms
+[2017-12-29 01:32:53 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.62ms
+[2017-12-29 01:34:06 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.42ms
+[2017-12-29 01:35:16 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.47ms
+[2017-12-29 01:36:24 login WARNING] [admin] logined out
+[2017-12-29 01:36:25 login WARNING] [admin] logined in
+[2017-12-29 01:40:51 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.53ms
+[2017-12-29 01:43:18 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.80ms
+[2017-12-29 01:43:55 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.67ms
+[2017-12-29 01:44:17 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.80ms
+[2017-12-29 01:44:37 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 0.60ms
+[2017-12-29 01:50:07 login WARNING] [admin] view the pdf [NDA Chenshan for 云朵课堂.pdf]
+[2017-12-29 01:50:31 login WARNING] [admin] view the pdf [NDA Chenshan for 云朵课堂.pdf]
+[2017-12-29 01:53:40 tornado.access WARNING] 404 GET /static/js/pdf.js.map (127.0.0.1) 1.71ms

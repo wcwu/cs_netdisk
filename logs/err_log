@@ -1,0 +1,115 @@
+[2017-12-28 09:12:16 tornado.application ERROR] Uncaught exception POST /signin.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/signin.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '56', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://127.0.0.1/signin.html?next=%2Findex.html', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 228, in post
+    auth = self.db.authenticate(username, password)
+  File "main.py", line 31, in authenticate
+    user_info = self.db.get("SELECT * FROM lp_user WHERE name = %s", username)
+  File "/Library/Python/2.7/site-packages/torndb.py", line 152, in get
+    raise Exception("Multiple rows returned for Database.get() query")
+Exception: Multiple rows returned for Database.get() query
+[2017-12-28 09:12:16 tornado.access ERROR] 500 POST /signin.html (127.0.0.1) 3.05ms
+[2017-12-28 09:12:24 tornado.application ERROR] Uncaught exception POST /signin.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/signin.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '56', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://127.0.0.1/signin.html?next=%2Findex.html', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 228, in post
+    auth = self.db.authenticate(username, password)
+  File "main.py", line 31, in authenticate
+    user_info = self.db.get("SELECT * FROM lp_user WHERE name = %s", username)
+  File "/Library/Python/2.7/site-packages/torndb.py", line 152, in get
+    raise Exception("Multiple rows returned for Database.get() query")
+Exception: Multiple rows returned for Database.get() query
+[2017-12-28 09:12:24 tornado.access ERROR] 500 POST /signin.html (127.0.0.1) 1.83ms
+[2017-12-28 09:13:18 tornado.application ERROR] Uncaught exception POST /signin.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/signin.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '56', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://127.0.0.1/signin.html?next=%2Findex.html', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 228, in post
+    auth = self.db.authenticate(username, password)
+  File "main.py", line 31, in authenticate
+    user_info = self.db.get("SELECT * FROM lp_user WHERE name = %s", username)
+  File "/Library/Python/2.7/site-packages/torndb.py", line 152, in get
+    raise Exception("Multiple rows returned for Database.get() query")
+Exception: Multiple rows returned for Database.get() query
+[2017-12-28 09:13:18 tornado.access ERROR] 500 POST /signin.html (127.0.0.1) 2.30ms
+[2017-12-28 09:13:37 tornado.application ERROR] Uncaught exception POST /signin.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/signin.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '56', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://127.0.0.1/signin.html?next=%2Findex.html', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 228, in post
+    auth = self.db.authenticate(username, password)
+  File "main.py", line 31, in authenticate
+    user_info = self.db.get("SELECT * FROM lp_user WHERE name = %s", username)
+  File "/Library/Python/2.7/site-packages/torndb.py", line 152, in get
+    raise Exception("Multiple rows returned for Database.get() query")
+Exception: Multiple rows returned for Database.get() query
+[2017-12-28 09:13:37 tornado.access ERROR] 500 POST /signin.html (127.0.0.1) 2.59ms
+[2017-12-28 09:13:38 tornado.application ERROR] Uncaught exception POST /signin.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/signin.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '56', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://127.0.0.1/signin.html?next=%2Findex.html', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 228, in post
+    auth = self.db.authenticate(username, password)
+  File "main.py", line 31, in authenticate
+    user_info = self.db.get("SELECT * FROM lp_user WHERE name = %s", username)
+  File "/Library/Python/2.7/site-packages/torndb.py", line 152, in get
+    raise Exception("Multiple rows returned for Database.get() query")
+Exception: Multiple rows returned for Database.get() query
+[2017-12-28 09:13:38 tornado.access ERROR] 500 POST /signin.html (127.0.0.1) 2.43ms
+[2017-12-29 10:09:03 tornado.application ERROR] Uncaught exception POST /preview_pdf.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/preview_pdf.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '99', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/index.html', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp; user="2|1:0|10:1514513336|4:user|36:Ilx1OTRmNlx1NzlkMVx1OTZjNlx1NTZlMiI=|e1d028f19c89f10c95bf91d9e36d8037f28b17edd95d78a9d19df0332a2521a7"', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 2897, in wrapper
+    return method(self, *args, **kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 217, in post
+    add_watermark(BASE_PATH + file_path + file_info.file_name, watermark_path, output_path)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/pdf_watermark.py", line 42, in add_watermark
+    input_stream = file(pdf_file_in, 'rb')
+IOError: [Errno 2] No such file or directory: u'static/file/0/2/NDA Chenshan for \u4e91\u6735\u8bfe\u5802.pdf'
+[2017-12-29 10:09:03 tornado.access ERROR] 500 POST /preview_pdf.html (127.0.0.1) 95.48ms
+[2017-12-29 10:09:09 tornado.application ERROR] Uncaught exception POST /preview_pdf.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/preview_pdf.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '99', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/index.html', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp; user="2|1:0|10:1514513336|4:user|36:Ilx1OTRmNlx1NzlkMVx1OTZjNlx1NTZlMiI=|e1d028f19c89f10c95bf91d9e36d8037f28b17edd95d78a9d19df0332a2521a7"', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 2897, in wrapper
+    return method(self, *args, **kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 217, in post
+    add_watermark(BASE_PATH + file_path + file_info.file_name, watermark_path, output_path)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/pdf_watermark.py", line 42, in add_watermark
+    input_stream = file(pdf_file_in, 'rb')
+IOError: [Errno 2] No such file or directory: u'static/file/0/2/NDA Chenshan for \u4e91\u6735\u8bfe\u5802.pdf'
+[2017-12-29 10:09:09 tornado.access ERROR] 500 POST /preview_pdf.html (127.0.0.1) 96.31ms
+[2017-12-29 10:09:25 tornado.application ERROR] Uncaught exception POST /preview_pdf.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/preview_pdf.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '99', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache', 'Referer': 'http://127.0.0.1/index.html', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp; user="2|1:0|10:1514513336|4:user|36:Ilx1OTRmNlx1NzlkMVx1OTZjNlx1NTZlMiI=|e1d028f19c89f10c95bf91d9e36d8037f28b17edd95d78a9d19df0332a2521a7"'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 2897, in wrapper
+    return method(self, *args, **kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 217, in post
+    add_watermark(BASE_PATH + file_path + file_info.file_name, watermark_path, output_path)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/pdf_watermark.py", line 42, in add_watermark
+    input_stream = file(pdf_file_in, 'rb')
+IOError: [Errno 2] No such file or directory: u'static/file/0/2/NDA Chenshan for \u4e91\u6735\u8bfe\u5802.pdf'
+[2017-12-29 10:09:25 tornado.access ERROR] 500 POST /preview_pdf.html (127.0.0.1) 85.78ms
+[2017-12-29 01:25:02 tornado.application ERROR] Uncaught exception POST /get_dir_list.html (127.0.0.1)
+HTTPServerRequest(protocol='http', host='127.0.0.1', method='POST', uri='/get_dir_list.html', version='HTTP/1.1', remote_ip='127.0.0.1', headers={'Origin': 'http://127.0.0.1', 'Content-Length': '7', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7,en-GB;q=0.6', 'Accept-Encoding': 'gzip, deflate, br', 'Host': '127.0.0.1', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36', 'Connection': 'keep-alive', 'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://127.0.0.1/index.html', 'Cookie': 'csrftoken=2Ws6id9GmjU28Ipywg8Tg3KcszZQWy8LSA5Ixs1OTdVnN395XtcdMvcNOtU58Rlp; user="2|1:0|10:1514524610|4:user|12:ImFkbWluIg==|c6f13154adc10337c8953b90c5e1dccf8523bafcadde39870e5ab215c0bbcd07"', 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'})
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 1509, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/Library/Python/2.7/site-packages/tornado/web.py", line 2897, in wrapper
+    return method(self, *args, **kwargs)
+  File "/Users/beyondwu/workspace/NetDisk/detaildemo/login.py", line 85, in post
+    ids.extend(paths.file_path[:-1].split('/'))#remove last /
+AttributeError: 'NoneType' object has no attribute 'file_path'
+[2017-12-29 01:25:02 tornado.access ERROR] 500 POST /get_dir_list.html (127.0.0.1) 5.76ms
