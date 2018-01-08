@@ -20,7 +20,7 @@ $(function() {
     }
 
 
-    var file_add_view = '<tr class="first" file_id="" ><td><div class="img"><img src="static/img/folder.png"></div><div class="add_folder" style="display:none"><input type="text" value="新建文件夹" /><i class="table-confirm" ></i><i class="folder-delete"></i></div><a href="javascript:;" file_id = "">There are many variations </a></td><td class="description"></td><td><span class ="folder_create_time">2017-01-01 12:00</span><ul class="actions"><li><i class="table-edit"></i></span></li><li class="last"><i class="table-delete"></i></li></ul></td></tr>'
+    var file_add_view = '<tr class="first" file_id="" ><td><div class="img"><img src="static/img/folder.png"></div><div class="add_folder" style="display:none"><input type="text" value="新建文件夹" /><i class="table-confirm" ></i><i class="folder-delete"></i></div><a href="javascript:;" file_id = ""></a></td><td class="description"></td><td><span class ="folder_create_time">2017-01-01 12:00</span><ul class="actions"><li><i class="table-download"></i></span></li><li ><i class="table-edit"></i></span></li><li class="last"><i class="table-delete"></i></li></ul></td></tr>'
     var new_layer = '<a href="javascript:;" data-deep="0" file_id="0">全部文件夹</a><span class="EKIHPEb">&gt;</span>';
 
     function addLayer(cur_id, cur_name) {
@@ -66,8 +66,9 @@ $(function() {
                     $("#file_list tr:last a").attr("file_attr", data.content.dir[i].attr);
                     $("#file_list tr:last a").text(data.content.dir[i].name);
                     $("#file_list tr:last .folder_create_time").text(data.content.dir[i].create_time);
+                    $("#file_list tr:last .table-download").css('display', 'none');
                     if ($("#user_name").text() != 'admin') {
-                        $("#file_list tr:last .actions").css('display', 'none')
+                        $("#file_list tr:last .actions").remove();
                     }
                 };
                 for (i in data.content.file) {
@@ -80,7 +81,10 @@ $(function() {
                     $("#file_list tr:last .folder_create_time").text(data.content.file[i].create_time);
                     $("#file_list tr:last img").attr("src", "static/img/table-img.png");
                     if ($("#user_name").text() != 'admin') {
-                        $("#file_list tr:last .actions").css('display', 'none')
+                       // $("#file_list tr:last .actions ").css('display', 'none');
+                        $("#file_list tr:last .actions .table-download").parents('li').siblings().remove();
+                        $("#file_list tr:last .actions li").attr('class','last')
+                        
                     }
                 };
             });
@@ -148,8 +152,9 @@ $(function() {
         loadingTask.onProgress = function(progress) {
 
             var percent_loaded = Math.round(progress.loaded * 100 / progress.total);
-
-            $("#pdf-loading-completed").css('width', percent_loaded + '%');
+            if(percent_loaded > 100) percent_loaded = 100;
+            $("#pdf-loading-completed").text(percent_loaded + '%');
+            $("#pdf-loading-completed").css('width', percent_loaded + '%'); 
 
         };
 
@@ -225,6 +230,8 @@ $(function() {
 
 
 
+
+
     $('#file_list').on('click', 'tr a', function() {
         if ($(this).attr("file_attr") == 0) {
 
@@ -234,6 +241,7 @@ $(function() {
 
         } else if ($(this).text().lastIndexOf(".pdf")) {
             var file_name = $(this).text();
+            $("#bg,.loading").show();
             $.post('preview_pdf.html', { 'file_path': parent_ids.join('/') + '/', "_xsrf": getCookie("csrftoken"), "file_id": $(this).attr("file_id") },
                 function(data, status) {
                     if (status == 'success') {
@@ -245,7 +253,7 @@ $(function() {
                             // display: "block"
                         });
                         //$("iframe").attr("src", "viewer.html?file=" + data.content.file_path)
-
+                        $("#bg,.loading").hide();
 
                         //var url = data.content.file_path;
                         var url = data.content.file_path;
@@ -302,6 +310,25 @@ $(function() {
             console.log(file);
             tr_obj.remove();
         });
+
+
+    });
+
+
+    $('#file_list').on('click', 'tr .table-download', function() {
+
+        if ($(this).parents("tr").find("a").text().lastIndexOf(".pdf")) {
+            var file_id = $(this).parents("tr").find("a").attr("file_id");
+            $("#bg,.loading").show();
+             $.post('preview_pdf.html', { 'file_path': parent_ids.join('/') + '/', "_xsrf": getCookie("csrftoken"), "file_id": file_id },
+                function(data, status) {
+                    $("#bg,.loading").hide();
+                    var url = encodeURI("download_file.html?file_path=") +  data.content.file_path;
+                    window.location.href =url;
+                });
+        }
+
+
 
 
     });
@@ -376,8 +403,8 @@ $(function() {
     $('#user_log').click(function(e) {
         $("#pad-wrapper").children().remove();
         //$("#pad-wrapper").append("<iframe style='width:100% overflow-x:scroll; overflow-y: scroll;'></iframe>");
-        $("#pad-wrapper").css("overflow","scroll");
-        $("#pad-wrapper").css("min-height","620px");
+        $("#pad-wrapper").css("overflow", "scroll");
+        $("#pad-wrapper").css("min-height", "620px");
 
         $("#pad-wrapper").append("<ul style='overflow:auto;height:500px'></ul>");
 

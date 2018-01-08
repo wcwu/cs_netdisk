@@ -4,8 +4,8 @@ import datetime
 import os
 import shutil
 import urllib
-from pdf_watermark import *
 import logging
+from utils import create_tmp_watermark_file
 
 logger = logging.getLogger("login")
 BASE_PATH = 'static/file/'
@@ -95,7 +95,7 @@ class DirListHandler(BaseHandler):
             else:
                 resp['file'].append({'id':file_dir.file_id, 'name':file_dir.file_name, 'attr':file_dir.file_attr,'create_time':file_dir.create_time.strftime('%Y-%m-%d %H:%M:%S')})
         resp['path_ids'] = path_ids
-        print path_ids
+        #print path_ids
         #print resp['create_time']
 
         self.finish({'code':200, 'message': 'ok', 'content':resp})
@@ -133,7 +133,7 @@ class AddOrRenameHandler(BaseHandler):
             os.mkdir(BASE_PATH + file_path + str(file_id))
         else:
             res  = self.get_db().get("SELECT file_attr, file_name, file_path FROM file_info WHERE file_id = %s",  file_id)
-            print res.file_name, res.file_path, file_path 
+            #print res.file_name, res.file_path, file_path 
             file_id = self.get_db().execute("UPDATE file_info SET file_name='%s' WHERE file_id='%s'" % (file_name, self.get_argument("file_id")))    
             if res.file_attr == 1: 
                 os.rename(BASE_PATH + res.file_path + res.file_name, BASE_PATH + res.file_path + file_name)
@@ -163,6 +163,7 @@ class ClosePdfHandler(BaseHandler):
         if os.path.exists(TMP_PATH + user_cookie):
             shutil.rmtree(TMP_PATH + user_cookie)
 
+
 class DownloadFileHandler(BaseHandler):
     @tornado.web.authenticated
     def get(self):
@@ -184,6 +185,7 @@ class ViewTest(BaseHandler):
         self.render('viewer.html')
 
 
+
 class DeleteFileHandler(BaseHandler):
     @tornado.web.authenticated
     def post(self):
@@ -197,6 +199,7 @@ class DeleteFileHandler(BaseHandler):
         self.get_db().execute("DELETE FROM file_info WHERE file_id='%s'"%file_id)
         self.finish({'code':200, 'message': 'ok', 'content':{}})
 
+
 class PreviewPdfHandler(BaseHandler):
     @tornado.web.authenticated
     def post(self):
@@ -207,18 +210,9 @@ class PreviewPdfHandler(BaseHandler):
         user_cookie = self.get_cookie('user').split('|')[-1]
         print self.get_cookie('user')
         user = self.get_current_user()
-        if os.path.exists(TMP_PATH + user_cookie):
-            shutil.rmtree(TMP_PATH + user_cookie)
-        os.mkdir(TMP_PATH + user_cookie)
-        output_path = TMP_PATH + user_cookie +'/' + file_info.file_name 
-        watermark_path = TMP_PATH + user_cookie + '/' + 'mark.pdf'
-        create_watermark(watermark_path,  u"仅供 " + user + u" 审阅，请勿外传")
-        #create_watermark(watermark_path,  "only for" + user + u"please not output")
-        add_watermark(BASE_PATH + file_path + file_info.file_name, watermark_path, output_path)
-
-
+        create_tmp_watermark_file(user, BASE_PATH + file_path + file_info.file_name,  TMP_PATH + user_cookie, file_info.file_name)
         logger.warn("[%s] view the pdf [%s]" % (self.get_current_user(), file_info.file_name))
-        self.finish({'code':200, 'message': 'ok', 'content':{'file_path':output_path}})
+        self.finish({'code':200, 'message': 'ok', 'content':{'file_path':TMP_PATH + user_cookie + '/' + file_info.file_name}})
 
 class ClosePdfHandler(BaseHandler):
     @tornado.web.authenticated
