@@ -169,7 +169,7 @@ class DownloadFileHandler(BaseHandler):
     def get(self):
         path = self.get_argument("file_path")
         self.set_header("Content-Type", 'application/pdf; charset="utf-8"')
-        self.set_header("Content-Disposition", "attachment; filename=" + urllib.quote_plus(path.split('/')[-1].encode('utf-8')))
+        self.set_header("Content-Disposition", "attachment; filename=" + urllib.quote_plus(path.split('/')[-1].encode('utf-8')).replace('+', '%20'))
    	try:
             with open(path, 'rb') as f:
                 data = f.read()
