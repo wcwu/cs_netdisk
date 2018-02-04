@@ -56,7 +56,9 @@ class Application(tornado.web.Application):
             (r"/close_pdf.html", ClosePdfHandler),
             (r"/viewer.html", ViewTest),
             (r"/password-reset.html", PasswordResetHandler),
-            (r"/get_user_log.html", UserlogHandler), 
+            (r"/get_user_log.html", UserlogHandler),
+            (r"/permission_control.html", PermissionCtrlHandler),
+            (r"/permission_set.html", PermissionSetHandler),
         ]
         settings = dict(
             #blog_title=u"Tornado Blog",

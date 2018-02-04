@@ -145,6 +145,15 @@ i.table-settings {
   top: 1px;
 }
 
+i.table-perm {
+  background: url("../../img/ico-table-perm.png") no-repeat;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  position: relative;
+  top: 1px;
+}
+
 i.table-delete {
   background: url("../../img/ico-table-delete.png") no-repeat;
   width: 12px;

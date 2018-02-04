@@ -4,6 +4,7 @@ import datetime
 import os
 import shutil
 import urllib
+import json
 import logging
 from utils import create_tmp_watermark_file
 
@@ -75,7 +76,8 @@ class DirListHandler(BaseHandler):
     def post(self):
         cur_id = self.get_argument('dir_id')
         resp = {'file':[], 'dir':[]}
-        file_info = self.get_db().query("SELECT * FROM file_info WHERE parent_id = %s and is_deleted=false", cur_id)
+        #file_info = self.get_db().query("SELECT * FROM file_info WHERE parent_id = %s and is_deleted=false", cur_id)
+        file_info = self.get_db().query("SELECT * FROM file_info a inner join file_permission b on a.file_id = b.file_id WHERE a.parent_id=%s and b.user_name=%s and b.permission=%s", cur_id, self.get_current_user(), 1)
 
         #path_names = []
         path_ids = []
@@ -96,7 +98,6 @@ class DirListHandler(BaseHandler):
                 resp['file'].append({'id':file_dir.file_id, 'name':file_dir.file_name, 'attr':file_dir.file_attr,'create_time':file_dir.create_time.strftime('%Y-%m-%d %H:%M:%S')})
         resp['path_ids'] = path_ids
         #print path_ids
-        #print resp['create_time']
 
         self.finish({'code':200, 'message': 'ok', 'content':resp})
 
@@ -131,6 +132,8 @@ class AddOrRenameHandler(BaseHandler):
             if os.path.exists(BASE_PATH + file_path + str(file_id)):
                 shutil.rmtree(BASE_PATH + file_path + str(file_id))
             os.mkdir(BASE_PATH + file_path + str(file_id))
+            #admin add permission
+            self.get_db().execute('INSERT INTO file_permission(user_name, file_id) VALUES ("%s",%d)' % (self.get_current_user(), int(file_id)))
         else:
             res  = self.get_db().get("SELECT file_attr, file_name, file_path FROM file_info WHERE file_id = %s",  file_id)
             #print res.file_name, res.file_path, file_path 
@@ -145,7 +148,6 @@ class UploadFileHandler(BaseHandler):
         path = self.get_argument('path');
         parent_id = self.get_argument('parent_id');
         create_time = self.get_argument('create_time');
-	print path, parent_id, create_time
 	for field_name, files in self.request.files.items():
             for info in files:
 		print info.keys()
@@ -155,6 +157,8 @@ class UploadFileHandler(BaseHandler):
                     wf.write(info['body'])
                 #print filename.split('.')[-1]
                 file_id = self.get_db().insert("INSERT INTO file_info(file_name, file_attr, create_time, parent_id, file_path, file_type) VALUES (%s,%s,%s,%s,%s,%s)", filename, 1, create_time, parent_id, path, content_type.split('/')[-1])
+                #set permission
+                self.get_db().execute('INSERT INTO file_permission(user_name, file_id) VALUES (%s,%s)',self.get_current_user(), file_id)
                 print('POST "%s" "%s" %d bytes',filename, content_type, len(body))
         
 class ClosePdfHandler(BaseHandler):
@@ -253,3 +257,39 @@ class LogoutHandler(BaseHandler):
         logger.warn("[%s] logined out" % self.get_current_user())
         self.clear_cookie("user")
         self.redirect(u"/signin.html")
+
+class PermissionCtrlHandler(BaseHandler):
+    @tornado.web.authenticated
+    def post(self):
+        file_id = self.get_argument("file_id", "")
+
+        users = self.get_db().query("SELECT name FROM lp_user")
+        users_permission = self.get_db().query("SELECT user_name, permission FROM file_permission where file_id=%s", file_id)
+        resp = {}
+        for user in users:
+            print user.name
+            resp.setdefault(user.name, 0)
+        for item in users_permission:
+            resp[item.user_name] = item.permission
+        self.finish({'code':200, 'message': 'ok', 'content':resp})
+        
+
+class PermissionSetHandler(BaseHandler):
+    @tornado.web.authenticated
+    def post(self):
+        #file_id = self.get_argument("file_id", "")
+        #user_perm = self.get_argument("users_permission", "")
+        param = self.request.body.decode('utf-8')
+        param = json.loads(param)
+        file_id = param['file_id']
+        print param
+        for item in param['user_permission']:
+            print item
+            permission = self.get_db().get('SELECT permission from file_permission where file_id=%s and user_name=%s',file_id, item)
+            if permission and permission.permission != param['user_permission'][item]:
+                self.get_db().execute('UPDATE file_permission SET permission=%s WHERE user_name=%s and file_id=%s',  param['user_permission'][item], item, file_id)
+            elif(not permission):
+                self.get_db().execute('INSERT INTO file_permission(user_name, file_id, permission) VALUES (%s,%s,%s)', item, file_id, param['user_permission'][item])
+        self.finish({'code':200, 'message': 'ok'})
+        
+
