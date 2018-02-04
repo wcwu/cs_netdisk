@@ -12,7 +12,7 @@ define("port", default=80, help="run on the given port", type=int)
 define("mysql_host", default="127.0.0.1:3306", help="blog database host")
 define("mysql_database", default="my_db", help="blog database name")
 define("mysql_user", default="root", help="blog database user")
-define("mysql_password", default="hello", help="blog database password")
+define("mysql_password", default="whosyourdaddy", help="blog database password")
 define("access_log", default="logs/access_log", type=str)
 define("debug_log", default="logs/debug_log", type=str)
 define("info_log", default="logs/info_log", type=str)
@@ -57,6 +57,8 @@ class Application(tornado.web.Application):
             (r"/viewer.html", ViewTest),
             (r"/password-reset.html", PasswordResetHandler),
             (r"/get_user_log.html", UserlogHandler),
+            (r"/permission_control.html", PermissionCtrlHandler),
+            (r"/permission_set.html", PermissionSetHandler),
         ]
         settings = dict(
             #blog_title=u"Tornado Blog",

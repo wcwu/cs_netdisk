@@ -20,7 +20,7 @@ $(function() {
     }
 
 
-    var file_add_view = '<tr class="first" file_id="" ><td><div class="img"><img src="static/img/folder.png"></div><div class="add_folder" style="display:none"><input type="text" value="新建文件夹" /><i class="table-confirm" ></i><i class="folder-delete"></i></div><a href="javascript:;" file_id = ""></a></td><td class="description"></td><td><span class ="folder_create_time">2017-01-01 12:00</span><ul class="actions"><li><i class="table-download"></i></span></li><li ><i class="table-edit"></i></span></li><li class="last"><i class="table-delete"></i></li></ul></td></tr>'
+    var file_add_view = '<tr class="first" file_id="" ><td><div class="img"><img src="static/img/folder.png"></div><div class="add_folder" style="display:none"><input type="text" value="新建文件夹" /><i class="table-confirm" ></i><i class="folder-delete"></i></div><a href="javascript:;" file_id = ""></a></td><td class="description"></td><td><span class ="folder_create_time">2017-01-01 12:00</span><ul class="actions"><li><i class="table-download"></i></span></li><li ><i class="table-edit"></i></span></li><li ><i class="table-perm"></i></span></li><li class="last"><i class="table-delete"></i></li></ul></td></tr>'
     var new_layer = '<a href="javascript:;" data-deep="0" file_id="0">全部文件夹</a><span class="EKIHPEb">&gt;</span>';
 
     function addLayer(cur_id, cur_name) {
@@ -81,10 +81,10 @@ $(function() {
                     $("#file_list tr:last .folder_create_time").text(data.content.file[i].create_time);
                     $("#file_list tr:last img").attr("src", "static/img/table-img.png");
                     if ($("#user_name").text() != 'admin') {
-                       // $("#file_list tr:last .actions ").css('display', 'none');
+                        // $("#file_list tr:last .actions ").css('display', 'none');
                         $("#file_list tr:last .actions .table-download").parents('li').siblings().remove();
-                        $("#file_list tr:last .actions li").attr('class','last')
-                        
+                        $("#file_list tr:last .actions li").attr('class', 'last')
+
                     }
                 };
             });
@@ -108,6 +108,9 @@ $(function() {
     }
 
 
+    var loadingTask;
+
+
 
     function renderPDF(url, canvasContainer, options) {
         var options = options || { scale: 1 };
@@ -119,15 +122,33 @@ $(function() {
             // var scaledViewport = page.getViewport(scale);
 
 
+            // var canvas = document.createElement('canvas');
+            // // canvas.style.display = "block";
+            // // canvas.style.margin = "0 auto";
+
+            // canvas.width = $("html").width();
+            // var w_scale = canvas.width / page.getViewport(1.0).width;
+            // canvas.height = w_scale * page.getViewport(1.0).height;
+            // var viewport = page.getViewport(w_scale * 0.9);
+
+
+            // //canvas.style.width = "100%";
+            // //canvas.style.height = "100%";
+            // canvas.style.width = Math.floor(viewport.width/w_scale) + 'pt';
+            // canvas.style.height = Math.floor(viewport.height/w_scale) + 'pt';
+
             var canvas = document.createElement('canvas');
-            canvas.style.display = "block";
-            canvas.style.margin = "0 auto";
+            var wrapper = document.createElement('wrapper');
 
-            canvas.width = $("html").width();
-            var w_scale = canvas.width / page.getViewport(1.0).width;
-            canvas.height = w_scale * page.getViewport(1.0).height;
-            var viewport = page.getViewport(w_scale * 0.9);
-
+            var scale = 2;
+            var viewport = page.getViewport(scale);
+            canvas.width = viewport.width;
+            canvas.height = viewport.height;
+            canvas.style.width = "100%";
+            //canvas.style.height = "100%";
+            wrapper.style.width = Math.floor(viewport.width / scale) + 'px';
+            //wrapper.style.height = Math.floor(viewport.height / scale) + 'px';
+            wrapper.appendChild(canvas);
 
             var ctx = canvas.getContext("2d");
             var renderContext = {
@@ -135,15 +156,19 @@ $(function() {
                 viewport: viewport
             };
 
-            canvasContainer.appendChild(canvas);
+            canvasContainer.appendChild(wrapper);
 
             page.render(renderContext);
+
+
         }
 
-        function renderPages(pdfDoc) {
+        function renderPages(pdfDoc, svg) {
+
             for (var num = 1; num <= pdfDoc.numPages; num++)
                 pdfDoc.getPage(num).then(renderPage);
         }
+
 
         __PAGE_RENDERING_IN_PROGRESS = 1;
         PDFJS.disableWorker = true;
@@ -152,15 +177,19 @@ $(function() {
         loadingTask.onProgress = function(progress) {
 
             var percent_loaded = Math.round(progress.loaded * 100 / progress.total);
-            if(percent_loaded > 100) percent_loaded = 100;
+            if (percent_loaded > 100) percent_loaded = 100;
             $("#pdf-loading-completed").text(percent_loaded + '%');
-            $("#pdf-loading-completed").css('width', percent_loaded + '%'); 
+            $("#pdf-loading-completed").css('width', percent_loaded + '%');
 
         };
 
         loadingTask.promise.then(
             function getDocumentCallback(pdfDocument) {
-                renderPages(pdfDocument)
+
+
+                var svg = "";
+                renderPages(pdfDocument, svg);
+
             });
     }
 
@@ -283,8 +312,9 @@ $(function() {
         $("body header").show();
         $("#fullbg").children().remove();
         $.post('close_pdf.html', { "_xsrf": getCookie("csrftoken") }, function(data, status) {
-
+            // loadingTask.destroy();
         });
+
     });
 
     $('#previewDownload').on('click', '', function() {
@@ -314,17 +344,106 @@ $(function() {
 
     });
 
+    $('#file_list').on('click', 'tr .table-perm', function() {
+
+        var file_id = $(this).parents("tr").find("a").attr("file_id");
+        var file_name = $(this).parents("tr").find("a").text();
+        var tr_obj = $(this).parents("tr");
+        $("#mask_layer").show();
+        var bh = $("html").height();
+        var bw = $("html").width();
+        $("#mask_layer").css({
+            height: bh,
+            width: bw,
+            // display: "block"
+        });
+        $("#perm_container").show();
+        var ptop = ($("html").height()) / 2 - $("#perm_container").height() / 2;
+        var pleft = (($("html").width()) / 2 - $("#perm_container").width() / 2)
+        $("#perm_container").css({
+            top: ptop,
+            left: pleft,
+        });
+        $("#perm-filename").attr("file_id", file_id);
+        $("#perm-filename").text(file_name);
+
+        //addOrRename($(this).attr("action_type"),  )
+        $.post('permission_control.html', { "file_id": file_id, "_xsrf": getCookie("csrftoken") }, function(data, status) {
+            console.log(file_id);
+            console.log(data);
+            var perm_line = '<tr class="first"><td class="col-md-3 sortable align-center"><div class="perm-member-select">Name</div></td><td class="col-md-3 sortable align-center"><div class="perm-action-select"><select><option value="NO">禁止查看</option><option value="YES">授权查看</option></select></div></td></tr>';
+            $('#perm-list').children().remove();
+            for (var items in data.content) {
+                $('#perm-list').append(perm_line);
+                $("#perm-list tr:last .perm-member-select").text(items);
+                if (data.content[items])
+                    $("#perm-list tr:last .perm-action-select select").val('YES');
+                else
+                    $("#perm-list tr:last .perm-action-select select").val('NO');
+
+            }
+
+
+        });
+
+
+    });
+    $('#perm-confirm').on('click', '', function() {
+        var trList = $("#perm-list").children("tr")
+        var file_id = $("#perm-filename").attr("file_id");
+        var user_perm = {};
+        for (var i = 0; i < trList.length; i++) {
+            var tdArr = trList.eq(i).find("td");
+            var user = tdArr.eq(0).find('div').text();
+            var perm = tdArr.eq(1).find('select').val();
+            if (perm == "YES")
+                user_perm[user] = 1;
+            else
+                user_perm[user] = 0;
+        }
+
+        // $.post('permission_set.html', { "file_id": file_id, "_xsrf": getCookie("csrftoken"), 'user_permission': user_perm }, function(data, status) {
+        //     console.log(data);
+        // });
+
+
+        $.ajax({
+            type: "POST",
+            url: "permission_set.html",
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify({ "file_id": file_id, "_xsrf": getCookie("csrftoken"), 'user_permission': user_perm }),
+            dataType: "json",
+            success: function(message) {
+               console.log(message);
+                $("#perm_container").hide();
+                $("#mask_layer").hide();
+            },
+            error: function(message) {
+                alert("修改权限失败");
+            }
+        });
+
+    });
+
+
+    $('#perm-cancel').on('click', '', function() {
+        $("#perm_container").hide();
+        $("#mask_layer").hide();
+
+    });
+
+
 
     $('#file_list').on('click', 'tr .table-download', function() {
 
         if ($(this).parents("tr").find("a").text().lastIndexOf(".pdf")) {
             var file_id = $(this).parents("tr").find("a").attr("file_id");
             $("#bg,.loading").show();
-             $.post('preview_pdf.html', { 'file_path': parent_ids.join('/') + '/', "_xsrf": getCookie("csrftoken"), "file_id": file_id },
+            $.post('preview_pdf.html', { 'file_path': parent_ids.join('/') + '/', "_xsrf": getCookie("csrftoken"), "file_id": file_id },
                 function(data, status) {
                     $("#bg,.loading").hide();
-                    var url = encodeURI("download_file.html?file_path=") +  data.content.file_path;
-                    window.location.href =url;
+                    var url = encodeURI("download_file.html?file_path=") + data.content.file_path;
+                    window.location.href = url;
                 });
         }
 
@@ -416,5 +535,13 @@ $(function() {
             });
 
     });
+
+    $('#permission_config').click(function(e) {
+        $("#pad-wrapper").children().remove();
+        //$("#pad-wrapper").append("<iframe style='width:100% overflow-x:scroll; overflow-y: scroll;'></iframe>");
+
+
+    });
+
 
 });
