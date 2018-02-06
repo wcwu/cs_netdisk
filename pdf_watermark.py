@@ -5,12 +5,12 @@ from PyPDF2 import PdfFileWriter, PdfFileReader
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase import pdfmetrics
 
-def create_watermark(file_path, content):
+def create_watermark(file_path, content, w_h):
     #默认大小为21cm*29.7cm
     #c = canvas.Canvas(file_path, pagesize = (30*cm, 30*cm))
-    c = canvas.Canvas(file_path)
+    c = canvas.Canvas(file_path, pagesize=w_h)
     #移动坐标原点(坐标系左下为(0,0))
-    c.translate(12*cm, 12*cm)
+    c.translate(int(w_h[0]/2), int(w_h[1]/2))
                                                                                                                                 
     pdfmetrics.registerFont(TTFont('simsun', 'simsun.ttf'))
     #设置字体
@@ -45,16 +45,15 @@ def add_watermark(pdf_file_in, pdf_file_mark, pdf_file_out):
     pdf_input = PdfFileReader(input_stream, strict=False)
                                                                                 
     # PDF文件被加密了
-    #if pdf_input.getIsEncrypted():
-    #    print '该PDF文件被加密了.'
-    #    # 尝试用空密码解密
-    #    try:
-    #        pdf_input.decrypt('')
-    #    except Exception, e:
-    #        print '尝试用空密码解密失败.'
-    #        return False
-    #    else:
-    #        print '用空密码解密成功.'
+    if pdf_input.getIsEncrypted():
+        print '该PDF文件被加密了.'
+        # 尝试用空密码解密
+        try:
+            pdf_input.decrypt('')
+        except Exception, e:
+            return False
+        else:
+            print '用空密码解密成功.'
     ## 获取PDF文件的页数
     pageNum = pdf_input.getNumPages()
     #读入水印pdf文件

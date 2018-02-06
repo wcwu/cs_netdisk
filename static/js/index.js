@@ -20,7 +20,7 @@ $(function() {
     }
 
 
-    var file_add_view = '<tr class="first" file_id="" ><td><div class="img"><img src="static/img/folder.png"></div><div class="add_folder" style="display:none"><input type="text" value="新建文件夹" /><i class="table-confirm" ></i><i class="folder-delete"></i></div><a href="javascript:;" file_id = ""></a></td><td class="description"></td><td><span class ="folder_create_time">2017-01-01 12:00</span><ul class="actions"><li><i class="table-download"></i></span></li><li ><i class="table-edit"></i></span></li><li ><i class="table-perm"></i></span></li><li class="last"><i class="table-delete"></i></li></ul></td></tr>'
+    var file_add_view = '<tr class="first" file_id="" ><td><div class="img"><img src="static/img/folder.png"></div><div class="add_folder" style="display:none"><input type="text" value="新建文件夹" /><i class="table-confirm" ></i><i class="folder-delete"></i></div><a href="javascript:;" file_id = ""></a></td><td class="description"></td><td><span class ="folder_create_time">2017-01-01 12:00</span></td><td><ul class="actions"><li><i class="table-download"></i></span></li><li ><i class="table-edit"></i></span></li><li ><i class="table-perm"></i></span></li><li class="last"><i class="table-delete"></i></li></ul></td></tr>'
     var new_layer = '<a href="javascript:;" data-deep="0" file_id="0">全部文件夹</a><span class="EKIHPEb">&gt;</span>';
 
     function addLayer(cur_id, cur_name) {
@@ -66,7 +66,8 @@ $(function() {
                     $("#file_list tr:last a").attr("file_attr", data.content.dir[i].attr);
                     $("#file_list tr:last a").text(data.content.dir[i].name);
                     $("#file_list tr:last .folder_create_time").text(data.content.dir[i].create_time);
-                    $("#file_list tr:last .table-download").css('display', 'none');
+                    //$("#file_list tr:last .table-download").css('display', 'none');
+                    $("#file_list tr:last .table-download").parent('li').remove();
                     if ($("#user_name").text() != 'admin') {
                         $("#file_list tr:last .actions").remove();
                     }
@@ -78,6 +79,14 @@ $(function() {
                     $("#file_list tr:last a").attr("file_attr", data.content.file[i].attr);
                     //$("#file_list tr:last a").attr("href", data.content.file[i].path + data.content.file[i].name);
                     $("#file_list tr:last a").text(data.content.file[i].name);
+                    var fz_kb = data.content.file[i].file_size / 1000.0
+                    if(fz_kb > 1000){
+                        fz_kb = fz_kb/1000.0
+                        $("#file_list tr:last .description").text(fz_kb.toFixed(1) + 'M');
+                    }
+                    else
+                        $("#file_list tr:last .description").text(fz_kb.toFixed(1) + 'K');
+
                     $("#file_list tr:last .folder_create_time").text(data.content.file[i].create_time);
                     $("#file_list tr:last img").attr("src", "static/img/table-img.png");
                     if ($("#user_name").text() != 'admin') {
@@ -372,7 +381,7 @@ $(function() {
             console.log(file_id);
             console.log(data);
             var perm_line = '<tr class="first"><td class="col-md-3 sortable align-center"><div class="perm-member-select">Name</div></td><td class="col-md-3 sortable align-center"><div class="perm-action-select"><select><option value="NO">禁止查看</option><option value="YES">授权查看</option></select></div></td></tr>';
-            $('#perm-list').children().remove();
+            $('#perm-list:first-child').nextAll().remove();
             for (var items in data.content) {
                 $('#perm-list').append(perm_line);
                 $("#perm-list tr:last .perm-member-select").text(items);
@@ -392,7 +401,7 @@ $(function() {
         var trList = $("#perm-list").children("tr")
         var file_id = $("#perm-filename").attr("file_id");
         var user_perm = {};
-        for (var i = 0; i < trList.length; i++) {
+        for (var i = 1; i < trList.length; i++) {
             var tdArr = trList.eq(i).find("td");
             var user = tdArr.eq(0).find('div').text();
             var perm = tdArr.eq(1).find('select').val();
@@ -433,6 +442,25 @@ $(function() {
     });
 
 
+    $('#total-member').on('change', 'select', function() {
+        console.log($(this).find("option:selected").val());
+        console.log($(this).val());
+        if($(this).find("option:selected").val() == 'YES'){
+            var trList = $(this).parents("tbody").children("tr")
+            for(var i = 1; i < trList.length; i++){
+                //setTimeout(al,50);
+                trList.eq(i).find('select').val('YES').trigger('change');
+            }
+        }
+        else{
+            var trList = $(this).parents("tbody").children("tr")
+            //for(var i = 1; i < trList.length; i++){
+            for(var i = 1; i < trList.length; i++){
+                trList.eq(i).find('select').val('NO').trigger('change');
+            }
+        }
+        
+    });
 
     $('#file_list').on('click', 'tr .table-download', function() {
 

@@ -49,7 +49,10 @@ class PasswordResetHandler(BaseHandler):
         info = self.get_db().get("SELECT * FROM lp_user WHERE name = %s", username)
         if info: #exist
             file_id = self.get_db().execute("UPDATE lp_user SET hashed_password='%s' WHERE name='%s'" % (self.get_argument('new_password'), username))    
-        self.render("password-reset.html", username=username, hidden="")
+        if username == 'admin':
+            self.render("index.html", username=username, hidden="")
+        else:
+            self.render("index.html", username=username, hidden="display:none")
 
     @tornado.web.authenticated
     def get(self):
@@ -77,7 +80,7 @@ class DirListHandler(BaseHandler):
         cur_id = self.get_argument('dir_id')
         resp = {'file':[], 'dir':[]}
         #file_info = self.get_db().query("SELECT * FROM file_info WHERE parent_id = %s and is_deleted=false", cur_id)
-        file_info = self.get_db().query("SELECT * FROM file_info a inner join file_permission b on a.file_id = b.file_id WHERE a.parent_id=%s and b.user_name=%s and b.permission=%s", cur_id, self.get_current_user(), 1)
+        file_info = self.get_db().query("SELECT * FROM file_info a left join file_permission b on a.file_id = b.file_id WHERE a.parent_id=%s and b.user_name=%s and b.permission=%s", cur_id, self.get_current_user(), 1)
 
         #path_names = []
         path_ids = []
@@ -86,16 +89,16 @@ class DirListHandler(BaseHandler):
             ids = []
             ids.extend(paths.file_path[:-1].split('/'))#remove last /
             ids.append(cur_id)
-            print ids
+            #print ids
             for id in ids[1:]:#skip 0
                 info = self.get_db().get('SELECT file_name FROM file_info WHERE file_id = %s', id)
                 path_ids.append({id:info.file_name})
         #print file_info
         for file_dir in file_info:
             if file_dir.file_attr == 0:
-                resp['dir'].append({'id':file_dir.file_id, 'name':file_dir.file_name, 'attr':file_dir.file_attr,'create_time':file_dir.create_time.strftime('%Y-%m-%d %H:%M:%S')})
+                resp['dir'].append({'id':file_dir.file_id, 'name':file_dir.file_name, 'attr':file_dir.file_attr,'create_time':file_dir.create_time.strftime('%Y-%m-%d %H:%M')})
             else:
-                resp['file'].append({'id':file_dir.file_id, 'name':file_dir.file_name, 'attr':file_dir.file_attr,'create_time':file_dir.create_time.strftime('%Y-%m-%d %H:%M:%S')})
+                resp['file'].append({'id':file_dir.file_id, 'name':file_dir.file_name, 'attr':file_dir.file_attr,'create_time':file_dir.create_time.strftime('%Y-%m-%d %H:%M'), 'file_size':file_dir.file_size})
         resp['path_ids'] = path_ids
         #print path_ids
 
@@ -148,15 +151,15 @@ class UploadFileHandler(BaseHandler):
         path = self.get_argument('path');
         parent_id = self.get_argument('parent_id');
         create_time = self.get_argument('create_time');
-	for field_name, files in self.request.files.items():
+        for field_name, files in self.request.files.items():
             for info in files:
-		print info.keys()
                 filename, content_type = info['filename'], info['content_type']
                 body = info['body']
-		with open(BASE_PATH + path + filename, 'w') as wf:
+                with open(BASE_PATH + path + filename, 'w') as wf:
                     wf.write(info['body'])
                 #print filename.split('.')[-1]
-                file_id = self.get_db().insert("INSERT INTO file_info(file_name, file_attr, create_time, parent_id, file_path, file_type) VALUES (%s,%s,%s,%s,%s,%s)", filename, 1, create_time, parent_id, path, content_type.split('/')[-1])
+                logger.info( "*****%d****"%len(body))
+                file_id = self.get_db().insert("INSERT INTO file_info(file_name, file_attr, create_time, parent_id, file_path, file_type, file_size) VALUES (%s,%s,%s,%s,%s,%s,%s)", filename, 1, create_time, parent_id, path, content_type.split('/')[-1], float('%.2f' % float(len(body))))
                 #set permission
                 self.get_db().execute('INSERT INTO file_permission(user_name, file_id) VALUES (%s,%s)',self.get_current_user(), file_id)
                 print('POST "%s" "%s" %d bytes',filename, content_type, len(body))
@@ -200,6 +203,7 @@ class DeleteFileHandler(BaseHandler):
             shutil.rmtree(whole_path)
         elif os.path.exists(whole_path) and file_info.file_attr == 1:
             os.remove(whole_path)
+        self.get_db().execute("DELETE FROM file_permission WHERE file_id='%s'"%file_id)
         self.get_db().execute("DELETE FROM file_info WHERE file_id='%s'"%file_id)
         self.finish({'code':200, 'message': 'ok', 'content':{}})
 
@@ -243,7 +247,8 @@ class LoginHandler(BaseHandler):
             logger.warn("[%s] logined in" % username)
         else:
             error_msg = u"?error=" + tornado.escape.url_escape("Login incorrect.")
-            self.redirect(u"/signin.html" + error_msg)
+            self.finish({'code':300, 'message': 'error'})
+            #self.redirect(u"/signin.html" + error_msg)
 
     def set_current_user(self, user):
         if user:
@@ -263,11 +268,11 @@ class PermissionCtrlHandler(BaseHandler):
     def post(self):
         file_id = self.get_argument("file_id", "")
 
-        users = self.get_db().query("SELECT name FROM lp_user")
-        users_permission = self.get_db().query("SELECT user_name, permission FROM file_permission where file_id=%s", file_id)
+        users = self.get_db().query('SELECT name FROM lp_user where name <> "admin"')
+        users_permission = self.get_db().query("SELECT user_name, permission FROM file_permission where file_id=%s and user_name <> 'admin'", file_id)
         resp = {}
         for user in users:
-            print user.name
+            #print user.name
             resp.setdefault(user.name, 0)
         for item in users_permission:
             resp[item.user_name] = item.permission
@@ -282,9 +287,7 @@ class PermissionSetHandler(BaseHandler):
         param = self.request.body.decode('utf-8')
         param = json.loads(param)
         file_id = param['file_id']
-        print param
         for item in param['user_permission']:
-            print item
             permission = self.get_db().get('SELECT permission from file_permission where file_id=%s and user_name=%s',file_id, item)
             if permission and permission.permission != param['user_permission'][item]:
                 self.get_db().execute('UPDATE file_permission SET permission=%s WHERE user_name=%s and file_id=%s',  param['user_permission'][item], item, file_id)

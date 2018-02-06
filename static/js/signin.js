@@ -18,7 +18,10 @@
      $login_btn.click(function(e) {
          $.post('signin.html', { "username": $("#username").val(), "password": hex_md5($("#password").val()), "_xsrf": getCookie("_xsrf") }, function(data, status) {
              //alert("Data: " + data + "\nStatus: " + status);
-             location.href = "index.html";
+             if(data.code==300)
+                $("#error_hint").text('用户名或密码错误,请重新输入')
+             else
+                location.href = "index.html";
              //$("#")
          });
      });

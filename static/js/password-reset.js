@@ -9,6 +9,9 @@ $(function() {
             $.post('password-reset.html', { 'new_password': hex_md5(new_password) },
                 function(data, status) {
                     alert("密码设置成功！");
+                    setTimeout(function(){ 
+                        window.location.href = "/index.html";
+                    },50); 
                 });
         }
     });
